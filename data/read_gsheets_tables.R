@@ -9,6 +9,8 @@
 library(googlesheets4)
 library(readr)
 library(dplyr)
+# install.packages("googlesheets4")
+library(googlesheets4)
 
 # script ------------------------------------------------------------------
 
@@ -27,7 +29,7 @@ read_sheet("18-6BHa8NR-g2Qlpu9yVSOEFXmsh6mRsAGjvWZMhBN4I") |>
   write_csv(here::here("data/tables/tbl-02-wp-activities-research-questions.csv"))
 
 
-## tbl-03-eth-ord-budget-templa-----------------------------------------------
+## tbl-03-eth-ord-budget-template-----------------------------------------------
 
 ## copy/paste the final budget table into the DOCX template
 ## Note: Update the Google Sheet ID with your copy of the table

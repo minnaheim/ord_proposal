@@ -1,10 +1,15 @@
 ---
-title: "TITLE"
+title: "Explore Project Proposal for swissdata"
 subtitle: "SUBTILE"
-format: 
-  docx:
-    number-sections: true
-    toc: true
+project:
+  output-dir: build
+format:
+  # pdf:
+  #   number-sections: true
+  #   toc: true 
+  # docx:
+  #   number-sections: true
+  #   toc: true
   gfm:
     number-sections: true
   html:
@@ -16,15 +21,26 @@ bibliography: references.bib
 csl: vancouver-brackets-no-et-al.csl
 editor_options: 
   chunk_output_type: console
+  
 ---
 
-```{r}
+```{r include = FALSE}
+knitr ::opts_chunk$set(echo = FALSE)
 #| label: setup
+# chooseCRANmirror(graphics = getOption("menu.graphics"), ind = NULL, local.only = FALSE)
+install.packages('epoxy', repos='https://cran.wu.ac.at/')
+install.packages("here", repos='https://cran.wu.ac.at/')
+
 library(epoxy)
 library(tidyverse)
+
+# why is the here package not imported if we need it in the next coding block
+library(here) 
+
 ```
 
-```{r}
+```{r include = FALSE}
+knitr ::opts_chunk$set(echo = FALSE)
 #| label: load-data
 
 ## tbl-01-work-packages --------------------------------------------------
@@ -37,7 +53,7 @@ wp_name <- tbl01$Name
 
 ## tbl-02-wp-activities-research-questions ------------------------------
 
-tbl02 <- read_csv(here::here("data/tables/tbl-02-wp-activities-research-questions.csv"))
+tbl02 <- read_csv(here::here("data/tables/tbl-02-wp-activities-research-questions.csv"))      
 
 wp1_activities <- filter(tbl02, WP == "WP1") |> 
   pull(`Project Activity`) 
@@ -65,45 +81,70 @@ wp4_rqs <- filter(tbl02, WP == "WP4") |>
 
 ```
 
-# Call Info
 
-## Website
+<!-- 
+    The downloaded binary packages are in
+        /var/folders/4q/6lp_9hnn0zn9_q873pjzdtm40000gn/T//Rtmp3rT8KP/downloaded_packages
 
--   Measure 1: Calls for Field-Specific Actions
--   https://ethrat.ch/en/measure-1-calls-for-field-specific-actions/
--   Explore projects will allow early phase exploration, testing and prototyping of what an ORD practice could be like. They will enable starting to engage with a community without necessarily building up something definitive. The aim is to help our researchers to explore if ORD practices can be developed and how.
+# Call Info -->
+
+<!-- ## Website
+
+- Measure 1: Calls for Field-Specific Actions
+- https://ethrat.ch/en/measure-1-calls-for-field-specific-actions/
+- Explore projects will allow early phase exploration, testing and
+  prototyping of what an ORD practice could be like. They will enable
+  starting to engage with a community without necessarily building up
+  something definitive. The aim is to help our researchers to explore if
+  ORD practices can be developed and how.
 
 ## Aims
 
-Funding for "Explore projects" aims at:
+Funding for “Explore projects” aims at:
 
 1.  Specifying ORD standards.
 2.  Prototyping ORD tools.
 3.  Building Communities to engage in ORD practices.
 4.  Any other means that help explore and develop ORD practices.
 
-It is important that Explore projects are not self-centred but emphasize exchanges in the spirit of Open Science with other researchers, technical experts, and stakeholders.
+It is important that Explore projects are not self-centred but emphasize
+exchanges in the spirit of Open Science with other researchers,
+technical experts, and stakeholders.
 
 ## Application guidelines (ETH Domain)
 
--   https://ethrat.ch/wp-content/uploads/2023/10/Application-Guidelines_TrackA_Explore_2nd_call_FINAL.pdf
--   It is the declared goal to fund proposals that make tools (e.g., software; hardware; protocols; standards; benchmarks; documentation and training materials; networking and education events, activities and resources) available which enable, facilitate and foster sharing research data based on ORD principles. Preference will be given to projects which engage and are connected to a community. Therefore, applicants are strongly invited to demonstrate why their project represents an ORD practice that encourages good research in their field.
+- https://ethrat.ch/wp-content/uploads/2023/10/Application-Guidelines_TrackA_Explore_2nd_call_FINAL.pdf
+- It is the declared goal to fund proposals that make tools (e.g.,
+  software; hardware; protocols; standards; benchmarks; documentation
+  and training materials; networking and education events, activities
+  and resources) available which enable, facilitate and foster sharing
+  research data based on ORD principles. Preference will be given to
+  projects which engage and are connected to a community. Therefore,
+  applicants are strongly invited to demonstrate why their project
+  represents an ORD practice that encourages good research in their
+  field.
 
 ## Application guidelines (ETHZ & EPFL)
 
--   https://ethrat.ch/wp-content/uploads/2023/10/Application-guidelines-Explore-EPFL-ETHZ-applicants-2nd-call-LATEST.pdf
+- https://ethrat.ch/wp-content/uploads/2023/10/Application-guidelines-Explore-EPFL-ETHZ-applicants-2nd-call-LATEST.pdf
 
 For applicants at ETHZ
 
--   In this Explore call, applicants at ETHZ must contribute 25% of the total budget from the resources of their lab/group/unit, either in-cash or in-kind. See the budgeting guidelines below for eligible contributions.
+- In this Explore call, applicants at ETHZ must contribute 25% of the
+  total budget from the resources of their lab/group/unit, either
+  in-cash or in-kind. See the budgeting guidelines below for eligible
+  contributions.
 
 For applicants at EPFL
 
--   In this Explore call, applicants at EPFL can be funded for 100% of the total budget.
+- In this Explore call, applicants at EPFL can be funded for 100% of the
+  total budget. -->
 
-# Project Proposal
+<!-- # Project Proposal
 
-Your project proposal must not exceed 12 pages, excluding the bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter margins). Please address all points below.
+Your project proposal must not exceed 12 pages, excluding the
+bibliography (A4, Arial 11-point font, 1.5 line-spacing, 2-centimeter
+margins). Please address all points below.
 
 # Abstract
 
@@ -111,187 +152,225 @@ Your project proposal must not exceed 12 pages, excluding the bibliography (A4, 
 
 - maax 1500 characters
 - needed on submission portal
-- will be displayed publicly, see for example: https://ethrat.ch/wp-content/uploads/2022/11/ORD_Explore_call1_decisiontable_for-publication.pdf
+- will be displayed publicly, see for example:
+  https://ethrat.ch/wp-content/uploads/2022/11/ORD_Explore_call1_decisiontable_for-publication.pdf -->
 
 # Keywords
 
-**Instructions**
+<!-- **Instructions** -->
 
-- 5 keywords that characterise your proposal (separated by commas)
-- needed on submission portal
+Open Data, Data Literacy, Machine Readability, Platform
+<!-- need to add 2 more keywords -->
 
 # Proposal full title
 
-**Instructions**
+swissdata: Making Public Data Public 
 
-Please include a project title (max. 12 words); this title will be used for all correspondence. Proposal Acronym (mandatory)
 
 # Background and motivation
 
-**Instructions**
+## Data as a key resource
 
-Please explain which aim(s) of the ORD "contribute projects" you seek to address:
+- in our data driven age, data has potential
+- firms with access to large amounts of data have "power"
+- we need to recognize that data is of value, and should be treated as a resource that should be shared, so that everyone can benefit off its value.
 
-1.  Specifying ORD standards.
-2.  Prototyping ORD tools.
-3.  Building Communities to engage in ORD practices.
-4.  Any other means that help explore and develop ORD practices.
+## Leveling the playing field
 
-It is important that Explore projects are not self-centred but emphasize exchanges in the spirit of Open Science with other researchers, technical experts, and stakeholders.
+- by making data accessible to the public, we remove hurdles for the public to access data, increases data literacy 
 
-## Section 1.1
-
--   One paragraph. 50 to 70 words
--   Reference @wilkinson2016fair
-
-## Section 1.2
-
--   One paragraph. 50 to 70 words
-
-## Section 1.3
-
--   One to two paragraphs (100 to 150 words)
-
-## Section 1.4
-
--   One to two paragraphs (100 to 150 words)
 
 ## Problem statement
 
--   One to two paragraphs (100 to 150 words)
+Swiss institutions like the FSO, SECO, are responsible for sharing public data, which is essential for researchers. 
+the status quo is that this "open data" does not always follow FAIR-principles, as we can see in the Screenshot below, depicting __________. 
+
+<!-- insert description of what is to see in the screenshot -->
+
+![Apache Airflow Tool](airflow_screenshot.png)
+
+This is a problem because researchers spend precious resources collecting and cleaning data, which could / should be spent conducting research with the data. 
+
+Solution: by launching a toolkit to collect data from various sources from the Internet, and making them available for download, swissdata aims to remove hurdles for data users by providing access to FAIR-data. This project is an important step in prototyping Open Research Data tools, since it transforms public data into FAIR-complying data, and thus supports ORD principles. In this project, public institutions such as the Federal Statistical Office (FSO), which act as facilitators, and a cooperation with the Eidgenössische Technische Hochschule (ETH) ensure that this project will benefit from expertise from academia, government and industry (?).
+
+<!-- can we also integrate that it creates ORD communities?-->
 
 # ORD project plan
 
 <!--# Edit work package names, activities and research questions in corresponding Google Sheet at: https://drive.google.com/drive/u/1/folders/1rcNgjQcII-V5N3Q5Z_KjM_6ghxFve20e -->
 
-**Instructions**
+<!-- **Instructions** -->
 
-Please describe your project design, including how it addresses the aim(s) of the ORD "Explore projects" described above. Please refer to the scientific literature as well as any preliminary, unpublished results that have informed your approach.
+<!-- Please describe your project design, including how it addresses the
+aim(s) of the ORD “Explore projects” described above. Please refer to
+the scientific literature as well as any preliminary, unpublished
+results that have informed your approach.
 
--   Which specific gap(s) in knowledge will your work address? Why is your approach innovative?
--   What questions will the project answer? What specific outcomes will you focus on?
--   Which strategy will you use to address the questions you seek to answer?
+- Which specific gap(s) in knowledge will your work address? Why is your
+  approach innovative?
+- What questions will the project answer? What specific outcomes will
+  you focus on?
+- Which strategy will you use to address the questions you seek to
+  answer? -->
 
-## `r paste0(wp_no[1], ": ", wp_name[1])`
+The project consists of the following Working Packages:
 
-### Goal
-
--   Describe the work concisely in 1 paragraph (80 to 120 words)
-
-### Activities
-
-```{epoxy}
-{1:length(wp1_activities)}. {wp1_activities[1:length(wp1_activities)]}
-```
-
-### Research Questions
-
-```{epoxy}
-{1:length(wp1_rqs)}. {wp1_rqs[1:length(wp1_rqs)]}
-```
-
-### Aims addressed
-
--   Write a sentence on how the aims of the Explore call are addressed by this WP and it's corresponding activities
-
-## `r paste0(wp_no[2], ": ", wp_name[2])`
+## WP1: Hiring a Student Assistant Software Engineer
 
 ### Goal
 
--   Describe the work concisely in 1 paragraph (80 to 120 words)
+<!-- - Describe the work concisely in 1 paragraph (80 to 120 words) -->
 
 ### Activities
 
-```{epoxy}
-{1:length(wp2_activities)}. {wp2_activities[1:length(wp2_activities)]}
-```
+<!-- 1.  Activity 1.1:
+2.  Activity 1.2:
+3.  Activity 1.3: -->
 
 ### Research Questions
 
-```{epoxy}
-{1:length(wp2_rqs)}. {wp2_rqs[1:length(wp2_rqs)]}
-```
+<!-- 1.  RQ 1.1:
+2.  RQ 1.2:
+3.  RQ 1.3: -->
 
 ### Aims addressed
 
--   Write a sentence on how the aims of the Explore call are addressed by this WP and it's corresponding activities
+<!-- - Write a sentence on how the aims of the Explore call are addressed by
+  this WP and it’s corresponding activities -->
 
-## `r paste0(wp_no[3], ": ", wp_name[3])`
+## WP2: Expand Demo Projects
 
 ### Goal
 
--   Describe the work concisely in 1 paragraph (80 to 120 words)
+<!-- - Describe the work concisely in 1 paragraph (80 to 120 words) -->
 
 ### Activities
 
-```{epoxy}
-{1:length(wp3_activities)}. {wp3_activities[1:length(wp3_activities)]}
-```
+<!-- 1.  Activity 2.1:
+2.  Activity 2.2:
+3.  Activity 2.3: -->
 
 ### Research Questions
 
-```{epoxy}
-{1:length(wp3_rqs)}. {wp3_rqs[1:length(wp3_rqs)]}
-```
+<!-- 1.  RQ 2.1:
+2.  RQ 2.2:
+3.  RQ 2.3: -->
 
 ### Aims addressed
 
--   Write a sentence on how the aims of the Explore call are addressed by this WP and it's corresponding activities
+<!-- - Write a sentence on how the aims of the Explore call are addressed by this WP and it’s corresponding activities -->
 
-## `r paste0(wp_no[4], ": ", wp_name[4])`
+## WP3: Launch swissdata Website 
 
 ### Goal
 
--   Describe the work concisely in 1 paragraph (80 to 120 words)
+<!-- - Describe the work concisely in 1 paragraph (80 to 120 words) -->
 
 ### Activities
 
-```{epoxy}
-{1:length(wp4_activities)}. {wp4_activities[1:length(wp4_activities)]}
-```
+<!-- 1.  Activity 3.1:
+2.  Activity 3.2:
+3.  Activity 3.3: -->
 
 ### Research Questions
 
-```{epoxy}
-{1:length(wp4_rqs)}. {wp4_rqs[1:length(wp4_rqs)]}
-```
+<!-- 1.  RQ 3.1:
+2.  RQ 3.2:
+3.  RQ 3.3: -->
 
 ### Aims addressed
 
--   Write a sentence on how the aims of the Explore call are addressed by this WP and it's corresponding activities
+<!-- - Write a sentence on how the aims of the Explore call are addressed by this WP and it’s corresponding activities -->
+
+## WP4: Integrate swissdata with the Hacking4Science Course
+
+### Goal
+
+<!-- - Describe the work concisely in 1 paragraph (80 to 120 words) -->
+
+### Activities
+<!-- 
+1.  Activity 4.1:
+2.  Activity 4.2:
+3.  Activity 4.3: -->
+
+### Research Questions
+
+<!-- 1.  RQ 4.1:
+2.  RQ 4.2:
+3.  RQ 4.3: -->
+
+### Aims addressed
+
+<!-- - Write a sentence on how the aims of the Explore call are addressed by
+  this WP and it’s corresponding activities -->
 
 # Impact
 
-**Instructions**
-
+<!-- **Instructions**
 Please address these specific points:
 
--   How sustainable is the proposed project inside the ETH Domain?
+- How sustainable is the proposed project inside the ETH Domain?
 
--   To what extent will the planned project substantially advance the ORD field, or solve a critical outstanding problem in the targeted field(s)?
+- To what extent will the planned project substantially advance the ORD
+  field, or solve a critical outstanding problem in the targeted
+  field(s)?
 
--   To what extent does the proposal support a collaborative approach, involving significant synergies, complementarities, or/and scientific added-value to achieve its objectives?
+- To what extent does the proposal support a collaborative approach,
+  involving significant synergies, complementarities, or/and scientific
+  added-value to achieve its objectives? -->
 
 # Work Packages and milestones
 
-**Instructions**
+<!-- **Instructions**
 
-Please include a detailed Gantt chart or table outlining the timeline of your project, including key activities and major deliverables.
+Please include a detailed Gantt chart or table outlining the timeline of
+your project, including key activities and major deliverables.
 
 ------------------------------------------------------------------------
 
-The following Table X shows a basic gantt chart against the four work packages, including program activities. Column "Lead" abbreviations:
+The following Table X shows a basic gantt chart against the four work
+packages, including program activities. Column “Lead” abbreviations:
 
-"Any publications derived from this program will be published as open access material, following ORD practices and Open Science standards for computational reproducibility and sharing of data and code under FAIR principles."
+“Any publications derived from this program will be published as open
+access material, following ORD practices and Open Science standards for
+computational reproducibility and sharing of data and code under FAIR
+principles.” -->
 
-Table X: https://docs.google.com/spreadsheets/d/18-6BHa8NR-g2Qlpu9yVSOEFXmsh6mRsAGjvWZMhBN4I/edit#gid=0
+<!-- 
+Table X:
+https://docs.google.com/spreadsheets/d/18-6BHa8NR-g2Qlpu9yVSOEFXmsh6mRsAGjvWZMhBN4I/edit#gid=0 -->
 
 # Resources (including project costs)
 
-Table Y: https://docs.google.com/spreadsheets/d/1MJkJN739eI9apa0Wfg1cHmIQgSshE1arCHBPWeFJwDk/edit#gid=0
+<!-- Table Y:
+https://docs.google.com/spreadsheets/d/1MJkJN739eI9apa0Wfg1cHmIQgSshE1arCHBPWeFJwDk/edit#gid=0 -->
 
 # Budget justification and description of co-financing
 
-Table Z: https://docs.google.com/spreadsheets/d/1Z7qNNp1DVB6F38eKfvx8FEUXzNi-ZPVfjtAetBJufdI/edit#gid=0
+<!-- Table Z:
+https://docs.google.com/spreadsheets/d/1Z7qNNp1DVB6F38eKfvx8FEUXzNi-ZPVfjtAetBJufdI/edit#gid=0 -->
 
 # Bibliography
+<!-- 
+<div id="refs" class="references csl-bib-body">
+
+<div id="ref-wilkinson2016fair" class="csl-entry">
+
+<span class="csl-left-margin">1.
+</span><span class="csl-right-inline">Wilkinson MD, Dumontier M,
+Aalbersberg IjJ, Appleton G, Axton M, Baak A, Blomberg N, Boiten J-W, da
+Silva Santos LB, Bourne PE, Bouwman J, Brookes AJ, Clark T, Crosas M,
+Dillo I, Dumon O, Edmunds S, Evelo CT, Finkers R, Gonzalez-Beltran A,
+Gray AJG, Groth P, Goble C, Grethe JS, Heringa J, ’t Hoen PAC, Hooft R,
+Kuhn T, Kok R, Kok J, Lusher SJ, Martone ME, Mons A, Packer AL, Persson
+B, Rocca-Serra P, Roos M, van Schaik R, Sansone S-A, Schultes E,
+Sengstag T, Slater T, Strawn G, Swertz MA, Thompson M, van der Lei J,
+van Mulligen E, Velterop J, Waagmeester A, Wittenburg P, Wolstencroft K,
+Zhao J, Mons B. [The FAIR Guiding Principles for scientific data
+management and stewardship](https://doi.org/10.1038/sdata.2016.18).
+Scientific Data. 2016 Mar;3(1):160018. </span>
+
+</div>
+
+</div> -->
