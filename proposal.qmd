@@ -159,13 +159,14 @@ margins). Please address all points below.
 
 <!-- **Instructions** -->
 
-Open Data, Data Literacy, Machine Readability, Platform
-<!-- need to add 2 more keywords -->
+Open Data, Data Literacy, Machine Readability, Time Series Data, Collaborative Platform,
+<!-- need to add 1 more keywords -->
 
 # Proposal full title
 
 swissdata: Making Public Data Public 
 
+<!-- change the project name -->
 
 # Background and motivation
 
@@ -183,17 +184,21 @@ swissdata: Making Public Data Public
 ## Problem statement
 
 Swiss institutions like the FSO, SECO, are responsible for sharing public data, which is essential for researchers. 
-the status quo is that this "open data" does not always follow FAIR-principles, as we can see in the Screenshot below, depicting __________. 
+the status quo is that this "open data" does not always follow FAIR-principles, as we can see in the Screenshot below, depicting ___. 
 
 <!-- insert description of what is to see in the screenshot -->
 
-![Apache Airflow Tool](airflow_screenshot.png)
+![Apache Airflow Tool](airflow_screenshot.png){#fig-1}
 
 This is a problem because researchers spend precious resources collecting and cleaning data, which could / should be spent conducting research with the data. 
 
-Solution: by launching a toolkit to collect data from various sources from the Internet, and making them available for download, swissdata aims to remove hurdles for data users by providing access to FAIR-data. This project is an important step in prototyping Open Research Data tools, since it transforms public data into FAIR-complying data, and thus supports ORD principles. In this project, public institutions such as the Federal Statistical Office (FSO), which act as facilitators, and a cooperation with the Eidgenössische Technische Hochschule (ETH) ensure that this project will benefit from expertise from academia, government and industry (?).
+**Solution:** by launching a toolkit to collect data from various sources from the Internet, and making them available for download, swissdata aims to remove hurdles for data users by providing access to FAIR-data. 
 
-<!-- can we also integrate that it creates ORD communities?-->
+**Compliance with ORD Aims:** 
+This project is an important step in prototyping Open Research Data tools, since it transforms public data into FAIR-complying data, and thus supports ORD principles. Moreover, swissdata helps build Communities to engage in ORD practices. Through the project, clean datasets will be made available to academia and beyond, thus encouraging researchers and data users to contribute their datasets. 
+
+In this project, public institutions such as the Federal Statistical Office (FSO), which act as facilitators, and a cooperation with the Eidgenössische Technische Hochschule (ETH) ensure that this project will benefit from expertise from academia, government and industry.
+
 
 # ORD project plan
 
@@ -215,95 +220,125 @@ results that have informed your approach.
 
 The project consists of the following Working Packages:
 
-## WP1: Hiring a Student Assistant Software Engineer
+## WP0: Dialogue Stage
 
 ### Goal
 
-<!-- - Describe the work concisely in 1 paragraph (80 to 120 words) -->
+In this stage, the goal is to get into dialogue with public institutions, such as the Federal Statistical Office (FSO), the Swiss National Bank (SNB) and the State Secretariat for Economic Affairs (SECO). These swiss public institutions are the biggest publishers of data. As stipulated above, see @fig-1, these institutions do not release open source data. 
+
+<!-- To solve the problem above, we needed to get into dialogue with these instituions and map out the problem. Due to the great network of the KOF at ETH, the team at KOF Lab, was able to get into contact with the FSO Board of Directors and have managed to secure support in the economic data area.  -->
 
 ### Activities
 
-<!-- 1.  Activity 1.1:
-2.  Activity 1.2:
-3.  Activity 1.3: -->
+1.  Activity 0.1: Enable direct contact with FSO 
+2.  Activity 0.2: Map out Problem, propose solution
+3.  Activity 0.3: Secure collaboration for economic data
 
 ### Research Questions
 
-<!-- 1.  RQ 1.1:
-2.  RQ 1.2:
-3.  RQ 1.3: -->
+1.  RQ 0.1: How can we address the lack of availabilty and accessability of public data?
+2.  RQ 0.2: Which collaborations need to be secured, to create the most impact?
 
 ### Aims addressed
 
-<!-- - Write a sentence on how the aims of the Explore call are addressed by
-  this WP and it’s corresponding activities -->
+By creating a Dialogue between ourselves and the public institutions responsible for the public data in Switzerland, we can be more in tune to the demands of the public institutions and at the same time, ensure that our concerns are heard, to then ensure that when we prototype ORD tools, these are most effective. 
 
-## WP2: Expand Demo Projects
+Moreover, by ensuring the collaborations of these institutions, we lay the foundation of a good community which engages in ORD practices. These institutions have an extensive network and influence, and by enabling cooperation with them, we have access to their network.  
+
+## WP1: Update technical standards for the datasets
 
 ### Goal
 
-<!-- - Describe the work concisely in 1 paragraph (80 to 120 words) -->
+In this stage, the aim is to bring our datasets and methods up to date. This includes updating the scraping for the existing datasets and updating the existing "read-in routines" to the newest standard.
 
 ### Activities
 
-<!-- 1.  Activity 2.1:
-2.  Activity 2.2:
-3.  Activity 2.3: -->
+1.  Activity 1.1: update scraping methods
+2.  Activity 1.2: review read-in routines
+3.  Activity 1.3: update to comply with other technical standards
 
 ### Research Questions
 
-<!-- 1.  RQ 2.1:
-2.  RQ 2.2:
-3.  RQ 2.3: -->
+1.  RQ 1.1: How can we ensure that the existing datasets are compliant with the newest industry standards? 
+
 
 ### Aims addressed
 
-<!-- - Write a sentence on how the aims of the Explore call are addressed by this WP and it’s corresponding activities -->
+This Working Package addresses the prototyping of ORD tools, by ensuring that the data collection tools are effective and still up to date. 
 
-## WP3: Launch swissdata Website 
+## WP2: Prepare publication of framework 
 
 ### Goal
 
-<!-- - Describe the work concisely in 1 paragraph (80 to 120 words) -->
+In this working package, the goal is to release the framework of swissdata, in order for it to be used by other researchers and institutions, i.e. by the community. 
 
 ### Activities
 
-<!-- 1.  Activity 3.1:
-2.  Activity 3.2:
-3.  Activity 3.3: -->
+1.  Activity 2.1: publish source/scraper code 
+2.  Activity 2.2: publish scientific use dataset (as example of how to use FSO data)
+3.  Activity 2.3: insfrastructure framework 
+ <!-- (docker files → enable people to reproduce runtime environment) -->
+4.  Activity 2.4: launch project website
 
 ### Research Questions
 
-<!-- 1.  RQ 3.1:
-2.  RQ 3.2:
-3.  RQ 3.3: -->
+1.  RQ 2.1: How do we make swissdata as applicable and replicable as possible? 
+2.  RQ 2.2: What do other researchers need to know, if they want to launch a similar project?
+<!-- RQ 3.1 and 3.2. answered by activity 3.1 and 3.2 -->
+3.  RQ 2.3: How do increase the reach of the swissdata project? 
+<!-- answered by activity 3.4 -->
 
 ### Aims addressed
+This working package adresses both the prototyping of ORD tools, and the building of communities to engage in ORD practices. The former is adressed since the publishing of sourcecode and scientific use datasets means that collaboration to improve these datasets can be ensured. Since Open Source research not only means that the data and tools are made available to academia and beyond, but that feedback from different industries or sectors can improve the ORD tools provided by swissdata. 
 
-<!-- - Write a sentence on how the aims of the Explore call are addressed by this WP and it’s corresponding activities -->
+The latter is adressed by launching a website. By publishing the framework and code of swissdata, the project can gain a wider reach, and engage the community.
 
-## WP4: Integrate swissdata with the Hacking4Science Course
+
+## WP3: Integrate swissdata into teaching 
 
 ### Goal
 
-<!-- - Describe the work concisely in 1 paragraph (80 to 120 words) -->
+After launching the framework and website of swissdata, the next aim is to increase the reach of the research software. To achieve this, a collaborator of the swissdata project,  Matthias Bannert, who is also Lecturers at the ETH, will integrate swissdata into his courses.
+
+One of these courses is Hacking for Science , which is a highly interactive, online course providing non-computer science students valuable big picture guidance and teaching hands-on software development skills. The course aims to help researchers of all fields who embrace programming as part of their approach to working with data. Hacking for Science is part of D-MTEC offering for PhD students but has benefited from guests from academia as well as the public and private sector. 
+
 
 ### Activities
-<!-- 
-1.  Activity 4.1:
-2.  Activity 4.2:
-3.  Activity 4.3: -->
+
+1.  Activity 3.1: Prepare previous FSO applied scientific dataset to teaching format
+2.  Activity 3.2: retain feedback about the swissdata framework and its applicability 
+3.  Activity 3.3: implement student feedback
 
 ### Research Questions
 
-<!-- 1.  RQ 4.1:
-2.  RQ 4.2:
-3.  RQ 4.3: -->
+1.  RQ 3.1: How can we improve the swissdata framework
+2.  RQ 3.2: How can we increase our community?
 
 ### Aims addressed
 
-<!-- - Write a sentence on how the aims of the Explore call are addressed by
-  this WP and it’s corresponding activities -->
+Both aims of prototyping ORD tools and building communitites are adressed. The exchange in academia, especially on PhD level means potentially good feedback on how to improve ORD tools. 
+
+Moreover, by presenting swissdata and utilising its (scientific) datasets, students might be motivated to join the community, and collaborate on iterations of the ORD tools or contribute with their own datasets.
+
+## WP4: Involve the community
+
+### Goal
+
+This working project ensures transparency. To guarantee that the  non-academia community also has insight into the framework and the swissdata project, swissdata will disclose its operations via newsletter, and presence on social media
+
+### Activities
+
+1.  Activity 4.1: create a newsletter
+2.  Activity 4.2: create social media presence
+<!-- 3.  Activity 4.3: -->
+
+### Research Questions
+
+1.  RQ 4.1: How do we insure that swissdata stays relevant and transparent?
+
+### Aims addressed
+
+For this working package, the engaging of communities and the practicing of ORD practices in ensured, since a presence in social media and a newsletter makes certain, that the community is kept up to date in swissdata's operations.
 
 # Impact
 
