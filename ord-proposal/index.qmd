@@ -1,0 +1,33 @@
+# Introduction {.unnumbered}
+
+
+|  |  |
+|:-----|:----|
+|   Full title  |  opnts - An Open Framework for Scientific Grade Time Series Datasets
+  |
+|  Keywords |  Open Data, Official Statistics, Time Series Analysis, Data Literacy, Automation, Machine Readability, Community
+ |
+
+
+
+
+## Background and Motivation
+
+Though we hope to extend the approach suggested in this proposal to further fields in the future, we intend to focus on the disciplines of Official Statistics and empirical Economics and their communities within the scope of this *Explore* proposal. Hence, we introduce our background and motivation to help contextualize our ideas with the example application we intend to *explore* in the propsed project.
+
+### Time Series Analysis, Forecasting and Data Science in Economics
+
+- monitoring the economy, indicators
+- shock absorption 
+- structural research, innovation
+- education
+- revision, evaluation of forecasts ask for automation
+
+### Official Statistics and Public Data
+
+- important source
+- requirements of scientific use different from main focus: data publication. 
+
+
+### Public Data / Open by default @ RSEED
+

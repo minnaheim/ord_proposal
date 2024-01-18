@@ -1,0 +1,40 @@
+# WP1: Homogenization of Data Processing Across Data Sources
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+library(readr)
+library(dplyr)
+tbl <- read_csv("data/tables/tbl-02-wp-activities-research-questions.csv") 
+
+a <- tbl |>
+  filter(WP == "WP1") |>
+  pull(`Project Activity`)
+
+r <- tbl |>
+  filter(WP == "WP1") |>
+  pull(`Research Question`)
+
+
+
+```
+
+
+::: {.callout-note}
+
+# Activities and Research Questions
+
+`r a[1]`
+
+`r a[2]`
+
+`r a[3]`
+
+`r r[1]`
+
+`r r[2]`
+
+`r r[3]`
+
+:::
+
+
+## Goals

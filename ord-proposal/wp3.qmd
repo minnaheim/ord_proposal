@@ -1,0 +1,39 @@
+# WP3: Community Activation
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+library(readr)
+library(dplyr)
+tbl <- read_csv("data/tables/tbl-02-wp-activities-research-questions.csv") 
+
+a <- tbl |>
+  filter(WP == "WP3") |>
+  pull(`Project Activity`)
+
+r <- tbl |>
+  filter(WP == "WP3") |>
+  pull(`Research Question`)
+
+
+
+```
+
+
+::: {.callout-note}
+
+# Activities and Research Questions
+
+`r a[1]`
+
+`r a[2]`
+
+
+`r r[1]`
+
+`r r[2]`
+
+
+
+:::
+
+
+## Goals
