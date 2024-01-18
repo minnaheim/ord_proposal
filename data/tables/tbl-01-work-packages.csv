@@ -1,5 +1,6 @@
 WP,Name,Lead
-WP1,Work package name 1,Work package lead institution
-WP2,Work package name 2,Work package lead institution
-WP3,Work package name 3,Work package lead institution
-WP4,Work package name 4,Work package lead institution
+WP0,Coordination and Planning, RSEED at KOF Lab
+WP1,Homogenize Data Processing Across Data Sources,RSEED at KOF Lab
+WP2,Publication,RSEED at KOF Lab
+WP3,Community Activation,RSEED at KOF Lab
+

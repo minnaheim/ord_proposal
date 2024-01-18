@@ -1,8 +1,5 @@
 ---
 title: "Explore Project Proposal for swissdata"
-subtitle: "SUBTILE"
-project:
-  output-dir: build
 format:
   # pdf:
   #   number-sections: true
@@ -14,22 +11,19 @@ format:
     number-sections: true
   html:
     toc: true
-execute:
-  echo: false
-  warning: false
+#execute:
+#  echo: false
+#  warning: false
 bibliography: references.bib
-csl: vancouver-brackets-no-et-al.csl
-editor_options: 
-  chunk_output_type: console
-  
+#csl: vancouver-brackets-no-et-al.csl
+#editor_options: 
+#  chunk_output_type: console
 ---
 
 ```{r include = FALSE}
 knitr ::opts_chunk$set(echo = FALSE)
 #| label: setup
 # chooseCRANmirror(graphics = getOption("menu.graphics"), ind = NULL, local.only = FALSE)
-install.packages('epoxy', repos='https://cran.wu.ac.at/')
-install.packages("here", repos='https://cran.wu.ac.at/')
 
 library(epoxy)
 library(tidyverse)
@@ -54,6 +48,9 @@ wp_name <- tbl01$Name
 ## tbl-02-wp-activities-research-questions ------------------------------
 
 tbl02 <- read_csv(here::here("data/tables/tbl-02-wp-activities-research-questions.csv"))      
+
+wp0_activities <- filter(tbl02, WP == "WP0") |> 
+  pull(`Project Activity`) 
 
 wp1_activities <- filter(tbl02, WP == "WP1") |> 
   pull(`Project Activity`) 
@@ -168,7 +165,46 @@ swissdata: Making Public Data Public
 
 <!-- change the project name -->
 
-# Background and motivation
+# Background and Motivation
+
+Though we hope to extend the approach suggested in this proposal to further fields in the future, we intend to focus on the disciplines of Official Statistics and empirical Economics and their communities within the scope of this *Explore* proposal. Hence, we introduce our background and motivation to help contextualize our ideas with the example application we intend to *explore* in the propsed project.
+
+## Time Series Analysis, Forecasting and Data Science in Economics
+
+- monitoring the economy, indicators
+- shock absorption 
+- structural research, innovation
+- education
+- revision, evaluation of forecasts ask for automation
+
+## Official Statistics and Public Data
+
+- important source
+- requirements of scientific use different from main focus: data publication. 
+
+
+## Open by default @RSEED
+
+
+
+## Problem statement
+
+- data pub is not what researchers want, show screenshot
+- work in progress, FSO does a lot 
+
+- goal: share data quality monitoring
+- provide framework/toolbox
+- community/promote exchange, dialogue
+- data literacy
+
+
+Swiss institutions like the FSO, SECO, are responsible for sharing public data, which is essential for researchers. 
+the status quo is that this "open data" does not always follow FAIR-principles, as we can see in the Screenshot below, depicting ___. 
+
+
+
+
+
 
 ## Data as a key resource
 
@@ -181,10 +217,6 @@ swissdata: Making Public Data Public
 - by making data accessible to the public, we remove hurdles for the public to access data, increases data literacy 
 
 
-## Problem statement
-
-Swiss institutions like the FSO, SECO, are responsible for sharing public data, which is essential for researchers. 
-the status quo is that this "open data" does not always follow FAIR-principles, as we can see in the Screenshot below, depicting ___. 
 
 <!-- insert description of what is to see in the screenshot -->
 
@@ -218,11 +250,21 @@ results that have informed your approach.
 - Which strategy will you use to address the questions you seek to
   answer? -->
 
-The project consists of the following Working Packages:
+This project consists of four main working packages: *WP0 - Coordination and Planning*, *WP1 - Homogenization of Data Processing*, *WP2 - Publication* and *WP3 - Community Activation in Academia and Beyond*. 
 
-## WP0: Dialogue Stage
+## `r paste0(wp_no[1], ": ", wp_name[1])`
 
-### Goal
+::: {.callout-note}
+
+## Goal
+
+During the starting stage of our project, we coordinate with major public data providers and involve data sources in our planning early on. We do so order to establish and maintain active, lively communication between public data providers and the scientific usage community. 
+
+:::
+
+### Activities
+
+
 
 In this stage, the goal is to get into dialogue with public institutions, such as the Federal Statistical Office (FSO), the Swiss National Bank (SNB) and the State Secretariat for Economic Affairs (SECO). These swiss public institutions are the biggest publishers of data. As stipulated above, see @fig-1, these institutions do not release open source data. 
 
@@ -230,11 +272,15 @@ In this stage, the goal is to get into dialogue with public institutions, such a
 
 ### Activities
 
-1.  Activity 0.1: Enable direct contact with FSO 
-2.  Activity 0.2: Map out Problem, propose solution
-3.  Activity 0.3: Secure collaboration for economic data
+```{epoxy}
+{1:length(wp1_activities)}. {wp1_activities[1:length(wp1_activities)]}
+```
 
 ### Research Questions
+
+```{epoxy}
+{1:length(wp1_rqs)}. {wp1_rqs[1:length(wp1_rqs)]}
+```
 
 1.  RQ 0.1: How can we address the lack of availabilty and accessability of public data?
 2.  RQ 0.2: Which collaborations need to be secured, to create the most impact?
@@ -245,9 +291,24 @@ By creating a Dialogue between ourselves and the public institutions responsible
 
 Moreover, by ensuring the collaborations of these institutions, we lay the foundation of a good community which engages in ORD practices. These institutions have an extensive network and influence, and by enabling cooperation with them, we have access to their network.  
 
-## WP1: Update technical standards for the datasets
+## WP1: Homogenize Data Processing Across Data Sources
+
+- data ingestion
+- documentation
+- 
+
+## WP2: Publication 
+
+
+## WP3: Activate Community in Academia and Beyond
+
+- teaching
+- dissemination of data
+- make framework and runtime environment available to foster further extension
+
 
 ### Goal
+
 
 In this stage, the aim is to bring our datasets and methods up to date. This includes updating the scraping for the existing datasets and updating the existing "read-in routines" to the newest standard.
 
