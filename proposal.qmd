@@ -1,5 +1,5 @@
 ---
-title: "Explore Project Proposal for swissdata"
+title: "opnts: Processing Public Data Into Scientific Grade Time Series Datasets"
 format:
   # pdf:
   #   number-sections: true
@@ -156,12 +156,12 @@ margins). Please address all points below.
 
 <!-- **Instructions** -->
 
-Open Data, Data Literacy, Machine Readability, Time Series Data, Collaborative Platform,
+Open Data, Official Statistics, Time Series Analysis, Data Literacy, Automation, Machine Readability, Community
 <!-- need to add 1 more keywords -->
 
 # Proposal full title
 
-swissdata: Making Public Data Public 
+opnts: Processing Public Data Into Scientific Grade Time Series Datasets
 
 <!-- change the project name -->
 
@@ -204,6 +204,59 @@ the status quo is that this "open data" does not always follow FAIR-principles, 
 
 
 
+# ORD project plan
+
+<!--# Edit work package names, activities and research questions in corresponding Google Sheet at: https://drive.google.com/drive/u/1/folders/1rcNgjQcII-V5N3Q5Z_KjM_6ghxFve20e -->
+
+<!-- **Instructions** -->
+
+<!-- Please describe your project design, including how it addresses the
+aim(s) of the ORD “Explore projects” described above. Please refer to
+the scientific literature as well as any preliminary, unpublished
+results that have informed your approach.
+
+- Which specific gap(s) in knowledge will your work address? Why is your
+  approach innovative?
+- What questions will the project answer? What specific outcomes will
+  you focus on?
+- Which strategy will you use to address the questions you seek to
+  answer? -->
+
+This project consists of four main working packages: *WP0 - Coordination and Planning*, *WP1 - Homogenization of Data Processing*, *WP2 - Publication* and *WP3 - Community Activation in Academia and Beyond*. 
+
+
+
+
+## `r paste0(wp_no[1], ": ", wp_name[1])`
+
+::: {.callout-note}
+
+## Goal
+
+During the starting stage of our project, we coordinate with major public data providers and involve data sources in our planning early on. We do so order to establish and maintain active, lively communication between public data providers and the scientific usage community. 
+
+:::
+
+
+
+<!-- 
+
+
+######################## CRAP LINE #####################################
+######################## CRAP LINE #####################################
+######################## CRAP LINE #####################################
+Let's keep a backlog of thoughts and ideas below this line. 
+more polished stuff cause goes above. 
+######################## CRAP LINE #####################################
+######################## CRAP LINE #####################################
+######################## CRAP LINE #####################################
+
+
+
+--> 
+
+
+
 
 
 ## Data as a key resource
@@ -232,55 +285,17 @@ This project is an important step in prototyping Open Research Data tools, since
 In this project, public institutions such as the Federal Statistical Office (FSO), which act as facilitators, and a cooperation with the Eidgenössische Technische Hochschule (ETH) ensure that this project will benefit from expertise from academia, government and industry.
 
 
-# ORD project plan
 
-<!--# Edit work package names, activities and research questions in corresponding Google Sheet at: https://drive.google.com/drive/u/1/folders/1rcNgjQcII-V5N3Q5Z_KjM_6ghxFve20e -->
 
-<!-- **Instructions** -->
 
-<!-- Please describe your project design, including how it addresses the
-aim(s) of the ORD “Explore projects” described above. Please refer to
-the scientific literature as well as any preliminary, unpublished
-results that have informed your approach.
-
-- Which specific gap(s) in knowledge will your work address? Why is your
-  approach innovative?
-- What questions will the project answer? What specific outcomes will
-  you focus on?
-- Which strategy will you use to address the questions you seek to
-  answer? -->
-
-This project consists of four main working packages: *WP0 - Coordination and Planning*, *WP1 - Homogenization of Data Processing*, *WP2 - Publication* and *WP3 - Community Activation in Academia and Beyond*. 
-
-## `r paste0(wp_no[1], ": ", wp_name[1])`
-
-::: {.callout-note}
-
-## Goal
-
-During the starting stage of our project, we coordinate with major public data providers and involve data sources in our planning early on. We do so order to establish and maintain active, lively communication between public data providers and the scientific usage community. 
-
-:::
 
 ### Activities
-
-
 
 In this stage, the goal is to get into dialogue with public institutions, such as the Federal Statistical Office (FSO), the Swiss National Bank (SNB) and the State Secretariat for Economic Affairs (SECO). These swiss public institutions are the biggest publishers of data. As stipulated above, see @fig-1, these institutions do not release open source data. 
 
 <!-- To solve the problem above, we needed to get into dialogue with these instituions and map out the problem. Due to the great network of the KOF at ETH, the team at KOF Lab, was able to get into contact with the FSO Board of Directors and have managed to secure support in the economic data area.  -->
 
-### Activities
 
-```{epoxy}
-{1:length(wp1_activities)}. {wp1_activities[1:length(wp1_activities)]}
-```
-
-### Research Questions
-
-```{epoxy}
-{1:length(wp1_rqs)}. {wp1_rqs[1:length(wp1_rqs)]}
-```
 
 1.  RQ 0.1: How can we address the lack of availabilty and accessability of public data?
 2.  RQ 0.2: Which collaborations need to be secured, to create the most impact?
