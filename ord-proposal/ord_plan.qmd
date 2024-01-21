@@ -1,0 +1,181 @@
+
+# ORD Project Plan
+
+## WP0: Coordination and Planning
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+library(readr)
+library(dplyr)
+tbl <- read_csv("data/tables/tbl-02-wp-activities-research-questions.csv") 
+
+a <- tbl |>
+  filter(WP == "WP0") |>
+  pull(`Project Activity`)
+
+r <- tbl |>
+  filter(WP == "WP0") |>
+  pull(`Research Question`)
+
+
+
+```
+
+
+::: {.callout-note}
+
+# Activities and Research Questions
+
+`r a[1]`
+
+`r a[2]`
+
+`r r[1]`
+
+`r r[2]`
+
+:::
+
+
+### Goals {.unnumbered}
+
+During the starting stage of our project, we coordinate with major public data providers and involve data sources in our planning early on. We do so order to establish and maintain active, lively communication between public data providers and the scientific usage community. 
+
+- pilot -> teaching, establish communication 
+- avoid redundancies
+- common understanding of focus datasets
+- leverage network
+- connect with ETH data stewards
+- scaleable, lay foundation for dataset contributions
+- connect academia with federal and regional administration
+
+
+## WP1: Homogenization of Data Processing Across Data Sources
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+library(readr)
+library(dplyr)
+tbl <- read_csv("data/tables/tbl-02-wp-activities-research-questions.csv") 
+
+a <- tbl |>
+  filter(WP == "WP1") |>
+  pull(`Project Activity`)
+
+r <- tbl |>
+  filter(WP == "WP1") |>
+  pull(`Research Question`)
+
+
+
+```
+
+
+::: {.callout-note}
+
+# Activities and Research Questions
+
+`r a[1]`
+
+`r a[2]`
+
+`r a[3]`
+
+`r r[1]`
+
+`r r[2]`
+
+`r r[3]`
+
+:::
+
+
+### Goals
+
+
+
+## WP2: Publication
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+library(readr)
+library(dplyr)
+tbl <- read_csv("data/tables/tbl-02-wp-activities-research-questions.csv") 
+
+a <- tbl |>
+  filter(WP == "WP2") |>
+  pull(`Project Activity`)
+
+r <- tbl |>
+  filter(WP == "WP2") |>
+  pull(`Research Question`)
+
+
+
+```
+
+
+
+::: {.callout-note}
+
+# Activities and Research Questions
+
+`r a[1]`
+
+`r a[2]`
+
+`r a[3]`
+
+`r a[4]`
+
+`r r[1]`
+
+`r r[2]`
+
+`r r[3]`
+
+`r r[4]`
+
+:::
+
+
+### Goals
+
+
+
+## WP3: Community Activation
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+library(readr)
+library(dplyr)
+tbl <- read_csv("data/tables/tbl-02-wp-activities-research-questions.csv") 
+
+a <- tbl |>
+  filter(WP == "WP3") |>
+  pull(`Project Activity`)
+
+r <- tbl |>
+  filter(WP == "WP3") |>
+  pull(`Research Question`)
+
+
+
+```
+
+
+::: {.callout-note}
+
+# Activities and Research Questions
+
+`r a[1]`
+
+`r a[2]`
+
+
+`r r[1]`
+
+`r r[2]`
+
+
+
+:::
+
+
+### Goals

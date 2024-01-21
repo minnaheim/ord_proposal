@@ -1,12 +1,26 @@
-# Introduction {.unnumbered}
+# Introduction
 
 
 |  |  |
 |:-----|:----|
-|   Full title  |  opnts - An Open Framework for Scientific Grade Time Series Datasets
+|   Full title  |  opnts - An Open Framework to Create Scientific Grade Time Series Datasets from Public Data
   |
 |  Keywords |  Open Data, Official Statistics, Time Series Analysis, Data Literacy, Automation, Machine Readability, Community
  |
+
+
+## Problem Statement
+
+- waste of resources, no solution while waiting for digital transformation, highly dynamic -> can't wait.
+- data publication vs. time series, scientific use. 
+- data is often publicly available but hard to digest for machines
+- undeniably OGD has had great impact, data quality remains heterogeneous, particularly w.r.t. machine readability.
+- methodological and technical advances (computing power) open up new possibilities but require high degrees of automation in data ingestion when models use large amounts of time series
+- higher frequency, e.g., immediate evaluation of measures during COVID-19 regulations. 
+- evaluation of forecasts (benchmark) ask for automation
+ 
+
+=> 3 overall goals here.. 
 
 
 
@@ -30,4 +44,6 @@ Though we hope to extend the approach suggested in this proposal to further fiel
 
 
 ### Public Data / Open by default @ RSEED
+
+
 
