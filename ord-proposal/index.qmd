@@ -45,5 +45,5 @@ Though we hope to extend the approach suggested in this proposal to further fiel
 
 ### Public Data / Open by default @ RSEED
 
-
+copy input from the openwashdata proposal 
 

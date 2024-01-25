@@ -426,6 +426,7 @@ Please address these specific points:
   added-value to achieve its objectives? -->
 
 - Very, project not only provides open ts, but raises awareness about how many public institutions still don't follow FAIR principles, holds them accountable (sustainable & advancement of ORD)
+- teaching creates max impact, students familiarized with FSO data, and ORD principles -> leverage investments of FSO 
 - cooperation with FSO allows "all" parties to be considered and in dialogue (collaboration)
 
 

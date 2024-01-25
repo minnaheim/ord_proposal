@@ -6,15 +6,15 @@
 ```{r,echo=FALSE,message=FALSE,warning=FALSE}
 library(readr)
 library(dplyr)
-tbl <- read_csv("data/tables/tbl-02-wp-activities-research-questions.csv") 
+tbl <- read_csv("data/tables/tbl-02-wp-activities-research-questions.csv")
 
 a <- tbl |>
-  filter(WP == "WP0") |>
-  pull(`Project Activity`)
+    filter(WP == "WP0") |>
+    pull(`Project Activity`)
 
 r <- tbl |>
-  filter(WP == "WP0") |>
-  pull(`Research Question`)
+    filter(WP == "WP0") |>
+    pull(`Research Question`)
 
 
 
@@ -53,15 +53,15 @@ One of the core parts of our approach is to leverage the investment into open da
 ```{r,echo=FALSE,message=FALSE,warning=FALSE}
 library(readr)
 library(dplyr)
-tbl <- read_csv("data/tables/tbl-02-wp-activities-research-questions.csv") 
+tbl <- read_csv("data/tables/tbl-02-wp-activities-research-questions.csv")
 
 a <- tbl |>
-  filter(WP == "WP1") |>
-  pull(`Project Activity`)
+    filter(WP == "WP1") |>
+    pull(`Project Activity`)
 
 r <- tbl |>
-  filter(WP == "WP1") |>
-  pull(`Research Question`)
+    filter(WP == "WP1") |>
+    pull(`Research Question`)
 
 
 
@@ -152,15 +152,15 @@ RQ3
 ```{r,echo=FALSE,message=FALSE,warning=FALSE}
 library(readr)
 library(dplyr)
-tbl <- read_csv("data/tables/tbl-02-wp-activities-research-questions.csv") 
+tbl <- read_csv("data/tables/tbl-02-wp-activities-research-questions.csv")
 
 a <- tbl |>
-  filter(WP == "WP2") |>
-  pull(`Project Activity`)
+    filter(WP == "WP2") |>
+    pull(`Project Activity`)
 
 r <- tbl |>
-  filter(WP == "WP2") |>
-  pull(`Research Question`)
+    filter(WP == "WP2") |>
+    pull(`Research Question`)
 
 
 
@@ -200,15 +200,15 @@ r <- tbl |>
 ```{r,echo=FALSE,message=FALSE,warning=FALSE}
 library(readr)
 library(dplyr)
-tbl <- read_csv("data/tables/tbl-02-wp-activities-research-questions.csv") 
+tbl <- read_csv("data/tables/tbl-02-wp-activities-research-questions.csv")
 
 a <- tbl |>
-  filter(WP == "WP3") |>
-  pull(`Project Activity`)
+    filter(WP == "WP3") |>
+    pull(`Project Activity`)
 
 r <- tbl |>
-  filter(WP == "WP3") |>
-  pull(`Research Question`)
+    filter(WP == "WP3") |>
+    pull(`Research Question`)
 
 
 
