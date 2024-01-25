@@ -4,6 +4,7 @@
 .Ruserdata
 build/
 proposal.md
+~$*.xlsx
 
 
 /.quarto/

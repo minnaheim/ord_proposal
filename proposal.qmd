@@ -21,7 +21,7 @@ bibliography: references.bib
 ---
 
 ```{r include = FALSE}
-knitr ::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE)
 #| label: setup
 # chooseCRANmirror(graphics = getOption("menu.graphics"), ind = NULL, local.only = FALSE)
 
@@ -29,12 +29,12 @@ library(epoxy)
 library(tidyverse)
 
 # why is the here package not imported if we need it in the next coding block
-library(here) 
+library(here)
 
 ```
 
 ```{r include = FALSE}
-knitr ::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE)
 #| label: load-data
 
 ## tbl-01-work-packages --------------------------------------------------
@@ -47,34 +47,34 @@ wp_name <- tbl01$Name
 
 ## tbl-02-wp-activities-research-questions ------------------------------
 
-tbl02 <- read_csv(here::here("data/tables/tbl-02-wp-activities-research-questions.csv"))      
+tbl02 <- read_csv(here::here("data/tables/tbl-02-wp-activities-research-questions.csv"))
 
-wp0_activities <- filter(tbl02, WP == "WP0") |> 
-  pull(`Project Activity`) 
+wp0_activities <- filter(tbl02, WP == "WP0") |>
+    pull(`Project Activity`)
 
-wp1_activities <- filter(tbl02, WP == "WP1") |> 
-  pull(`Project Activity`) 
+wp1_activities <- filter(tbl02, WP == "WP1") |>
+    pull(`Project Activity`)
 
 wp1_rqs <- filter(tbl02, WP == "WP1") |>
-  pull(`Research Question`)
+    pull(`Research Question`)
 
 wp2_activities <- filter(tbl02, WP == "WP2") |>
-  pull(`Project Activity`)
+    pull(`Project Activity`)
 
 wp2_rqs <- filter(tbl02, WP == "WP2") |>
-  pull(`Research Question`)
+    pull(`Research Question`)
 
 wp3_activities <- filter(tbl02, WP == "WP3") |>
-  pull(`Project Activity`)
+    pull(`Project Activity`)
 
 wp3_rqs <- filter(tbl02, WP == "WP3") |>
-  pull(`Research Question`)
+    pull(`Research Question`)
 
 wp4_activities <- filter(tbl02, WP == "WP4") |>
-  pull(`Project Activity`)
+    pull(`Project Activity`)
 
 wp4_rqs <- filter(tbl02, WP == "WP4") |>
-  pull(`Research Question`)
+    pull(`Research Question`)
 
 ```
 
@@ -154,16 +154,10 @@ margins). Please address all points below.
 
 # Keywords
 
-<!-- **Instructions** -->
-
 Open Data, Official Statistics, Time Series Analysis, Data Literacy, Automation, Machine Readability, Community
-<!-- need to add 1 more keywords -->
 
 # Proposal full title
-
 opnts: Processing Public Data Into Scientific Grade Time Series Datasets
-
-<!-- change the project name -->
 
 # Background and Motivation
 
@@ -430,6 +424,10 @@ Please address these specific points:
 - To what extent does the proposal support a collaborative approach,
   involving significant synergies, complementarities, or/and scientific
   added-value to achieve its objectives? -->
+
+- Very, project not only provides open ts, but raises awareness about how many public institutions still don't follow FAIR principles, holds them accountable (sustainable & advancement of ORD)
+- cooperation with FSO allows "all" parties to be considered and in dialogue (collaboration)
+
 
 # Work Packages and milestones
 
