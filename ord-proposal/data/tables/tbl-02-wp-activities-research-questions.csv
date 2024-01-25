@@ -1,6 +1,6 @@
 WP,Name,Project Activity,Research Question,Lead,Q1,Q2,Q3,Q4,Q5,Q6
 WP0,Coordination and Planning,Activity 0.1: Meetings with Data Provider Management and Operations,RQ 0.1: Which channels and formats work to keep the dialogue active and sustainable?,Lead person initials,NA,NA,NA,NA,NA,NA
-WP0,Coordination and Planning,Activity 0.2: RSEED Seminar Series,RQ 0.2: How can we integrate usage of publicly available data into teaching?,Lead person initials,NA,NA,NA,NA,NA,NA
+WP0,Coordination and Planning,Activity 0.2: RSEED Meetup Series,RQ 0.2: How can we integrate usage of publicly available data into teaching?,Lead person initials,NA,NA,NA,NA,NA,NA
 WP1,Homogenize Data Processing Across Data Sources,Activity 1.1: Implement Core Library for Standardized Data Processing, RQ 1.1: What are the key components of a framework to ingest data for scientific use?,Lead person initials,NA,NA,NA,NA,NA,NA
 WP1,Homogenize Data Processing Across Data Sources,Activity 1.2: Modularize Provider Specific Data Ingestion Processes, RQ 1.2: How can isolate idiosyncrasies for optimal reuse of code?,Lead person initials,NA,NA,NA,NA,NA,NA
 WP1,Homogenize Data Processing Across Data Sources,Activity 1.3: Document Processing Framework and Its Output, RQ 1.3: What makes documentation of open source software and open research data inclusive?,Lead person initials, NA,NA,NA,NA,NA,NA

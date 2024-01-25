@@ -38,18 +38,19 @@ r <- tbl |>
 
 ### Goals {.unnumbered}
 
-During the starting stage of our project, we coordinate with major public data providers and involve data sources in our planning early on. We do so order to establish and maintain active, lively communication between public data providers and the scientific usage community. 
+During the starting stage of our project, we coordinate with major public data providers and involve data sources in our planning early on. We do so in order to establish and maintain active, lively communication between public data providers and the scientific usage community. 
 
-- pilot -> teaching, establish communication 
-- avoid redundancies
-- common understanding of focus datasets
-- leverage network
-- connect with ETH data stewards
-- scaleable, lay foundation for dataset contributions
-- connect academia with federal and regional administration
+<!-- activities & RQs -->
+Publicly available economic data provided by the Federal Statistical Office (FSO), the Secretariat of Economic affairs (SECO), the Swiss National Bank (SNB) as well as regional Statistical Offices are important sources for economic research and monitoring of the Swiss economy. To develop an ORD spirit and a community of a data providers and scientific users of the data, it is crucial to involve these public institutions early on. Early dialogue helps to avoid reduncancies with existing data community initiatives and to develop a common understanding of *open data*, machine readability and datasets of priority. 
+
+One of the core parts of our approach is to leverage the investment into open data and strengthen connection between academia and federal and regional administration is to integrate public data into academic teaching. To explore how to effectively use the joint expertise of public data providers, domain experts, data stewards of the ETH domain and data engineers, we launch a series of monthly meetups early in the process. The meetups are designed to foster inclusive expert discussions through publicly pre-circulated content. We are working to integrate our meetup series into the academic curriculum at ETH, but keep the series open to interested participants beyond academia. 
+
 
 
 ## WP1: Homogenization of Data Processing Across Data Sources
+
+- scaleable, lay foundation for dataset contributions
+
 
 ```{r,echo=FALSE,message=FALSE,warning=FALSE}
 library(readr)
