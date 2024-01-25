@@ -49,8 +49,6 @@ One of the core parts of our approach is to leverage the investment into open da
 
 ## WP1: Homogenization of Data Processing Across Data Sources
 
-- scaleable, lay foundation for dataset contributions
-
 
 ```{r,echo=FALSE,message=FALSE,warning=FALSE}
 library(readr)
@@ -89,8 +87,15 @@ r <- tbl |>
 :::
 
 
-### Goals
+### Goals {.unnumbered}
 
+
+- lay technical foundation / framework for data transformation (common)
+- implement data provider specific code for core datasets (specific)
+- develop documentation that fosters inclusion of the community, encourages use of the library AND resulting datasets
+- prepare for publication of engine
+- reproducible research
+- inclusion through large existing communities (R community) that provide help, free of charge (justify choice of software) -> cite article kof analysen
 
 
 ## WP2: Publication
