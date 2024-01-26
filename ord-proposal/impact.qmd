@@ -1,0 +1,25 @@
+# Impact 
+
+<!-- **Instructions**
+Please address these specific points:
+
+- How sustainable is the proposed project inside the ETH Domain?
+
+- To what extent will the planned project substantially advance the ORD
+  field, or solve a critical outstanding problem in the targeted
+  field(s)?
+
+- To what extent does the proposal support a collaborative approach,
+  involving significant synergies, complementarities, or/and scientific
+  added-value to achieve its objectives? -->
+
+opnts has the potential to be extensively adopted in many research and societal communities because of the following points: 
+
+- opnts' community helps monitor and keep researchers accountable (sustainability)
+
+- the project raises awareness about potential for improvement within public insitutions (advancement of ORD not only through opnts but effect on public institutions)
+
+- using the opnts framework for teaching helps leverage investments of FSO and gets students familiarized with FSO data and ORD principles (sustainable and collaborative)
+
+- cooperation with FSO in WP0 allows academic and public experts to be in dialogue and their ideas to be heard (collaboration)
+
