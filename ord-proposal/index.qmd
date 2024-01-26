@@ -11,6 +11,15 @@
 
 ## Problem Statement
 
+"opnts bridges the gap between official statistics and academic research"
+
+in 2 ways: 
+
+1. improving & spreading ORD practices (active discussions with FSO, teaching, FAIR principle inclusion)
+2. code as communication (framework as a blueprint to communicate what we want to do, as an interim solution).
+
+-> erhöhe abstraktionsniveau, wir haben communication and technisches framework, bilden wissen, was bfs uns gibt, und 2. community building.
+
 - waste of resources, no solution while waiting for digital transformation, highly dynamic -> can't wait.
 - data publication vs. time series, scientific use. 
 - data is often publicly available but hard to digest for machines
@@ -18,6 +27,7 @@
 - methodological and technical advances (computing power) open up new possibilities but require high degrees of automation in data ingestion when models use large amounts of time series
 - higher frequency, e.g., immediate evaluation of measures during COVID-19 regulations. 
 - evaluation of forecasts (benchmark) ask for automation
+
  
 
 => 3 overall goals here.. 
@@ -45,5 +55,6 @@ Though we hope to extend the approach suggested in this proposal to further fiel
 
 ### Public Data / Open by default @ RSEED
 
-copy input from the openwashdata proposal 
+- KOF's access to economic data which is made available to the public
+
 
