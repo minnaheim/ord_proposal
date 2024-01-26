@@ -89,13 +89,62 @@ r <- tbl |>
 
 ### Goals {.unnumbered}
 
+<!-- communication through the opents project, code as communication channel --> 
 
-- lay technical foundation / framework for data transformation (common)
+In work package 1 (WP1), we lay the technical foundation to re-publish public data as a machine readable resource. Our approaches use license cost free open source software and aims to publish not only the data but also the technical framework in order to ensure reproducibility and comply with FAIR principles. In addition, the *opents* project embraces an infrastructure-as-code approach and publishes this information on the runtime environment in order to facilitate operation of an instance of the *opents* framework through others. 
+
+Because an active community is inevitable to keep sustainable, i.e., maintained, we chose the R Project for Statistical Computing as our main programming language for the implementation of the framework. R is known for its large and inclusive community with its annual user conferences and vibrant local communities (insert figure Ben's community explorer, article on useR!, hosted in 2021). 
+
+In a first implementation step, based on our long term experience as consumers of public data, we disentangle common parts of the data ingestion process from dataset or provider specific idiosyncrasies. When monitoring the Swiss economy, we compare publication dates, download files or consume APIs. 
+
+<!--- Insert schematic process -->
+
+In the process, operations such as downloads, exchange with industry standard APIs and comparison of publication are relatively common across datasets and providers while data transformation can be very specific. We compose these common parts in a opents-core R package. 
+
+
+next up: modular packages. 
+
+
+
+ through tasks as monitors of the Swiss economy (KOF), we identify common ground 
+
+accountability, monitoring
+
+
+
+
+ORD excellence
+
+- critical problem
+- beyond state of the art
+- integration of existing ORD practices (open source, reproducibility)
+
+RQ1 components of a framework
+
+- data repository
+- common source code (reuse)
+- source specific source code (modular) (RQ2)
+- standards for data and data description -> FAIR
+- community 
+- runtime environment
+
+
+RQ3
+- open source, free of license costs
+- interactivity
+- language / wording
+- application examples / interactivity
+- community support -> matrix 
+- portfolio type of examples (confidence in approach)
+
+
+
+
 - implement data provider specific code for core datasets (specific)
 - develop documentation that fosters inclusion of the community, encourages use of the library AND resulting datasets
 - prepare for publication of engine
 - reproducible research
-- inclusion through large existing communities (R community) that provide help, free of charge (justify choice of software) -> cite article kof analysen
+
 
 
 ## WP2: Publication
