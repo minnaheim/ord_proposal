@@ -19,6 +19,15 @@ in 2 ways:
 2. code as communication (framework as a blueprint to communicate what we want to do, as an interim solution).
 
 -> erhöhe abstraktionsniveau, wir haben communication and technisches framework, bilden wissen, was bfs uns gibt, und 2. community building.
+:::{.callout-important}
+
+bridging the gap between academia and official statistics. 
+way to do it: streamline publication, inclusion across all working packages. share a blueprint process on how to work with public data. 
+have different entrypoints for different needs: data, source code, meta data etc. 
+code as a communication channel,
+
+:::
+
 
 - waste of resources, no solution while waiting for digital transformation, highly dynamic -> can't wait.
 - data publication vs. time series, scientific use. 
