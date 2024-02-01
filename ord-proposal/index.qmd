@@ -19,6 +19,7 @@ in 2 ways:
 2. code as communication (framework as a blueprint to communicate what we want to do, as an interim solution).
 
 -> erhöhe abstraktionsniveau, wir haben communication and technisches framework, bilden wissen, was bfs uns gibt, und 2. community building.
+
 :::{.callout-important}
 
 bridging the gap between academia and official statistics. 
