@@ -13,13 +13,21 @@ Please address these specific points:
   involving significant synergies, complementarities, or/and scientific
   added-value to achieve its objectives? -->
 
-opnts has the potential to be extensively adopted in many research and societal communities because of the following points: 
+
+The opnts framework ensures that the repetitive task of data dissemination is kept to a minimum, and thus saves the precious resources of researchers and data consumers. (solves critical problem)
+
 
 - opnts' community helps monitor and keep researchers accountable (sustainability)
 
-- the project raises awareness about potential for improvement within public insitutions (advancement of ORD not only through opnts but effect on public institutions)
+- findability because publication on established platforms
+
+- accessible because low barriers to entry when publishing software on Github (and other OS platforms) and data on Zenodo (and other OS platforms), integrated into teaching
+
+- the project raises awareness about potential for improvement within public insitutions (advancement of ORD not only through opnts but effect on public institutions) -> accountability
 
 - using the opnts framework for teaching helps leverage investments of FSO and gets students familiarized with FSO data and ORD principles (sustainable and collaborative)
+
+- teaching allows not only for accountability of framework, but improvements and interoperability (not only econs, but health scientists, etc.)
 
 - cooperation with FSO in WP0 allows academic and public experts to be in dialogue and their ideas to be heard (collaboration)
 
