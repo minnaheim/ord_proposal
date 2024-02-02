@@ -153,38 +153,25 @@ The goal of Work package 2 (WP2) is find the platforms our community data and co
 
 ### Implementation
 
-The *opents* approach suggested here, splits data and metainformation into two separate text files and formats: a simple .csv spreadsheet and a nested .json file for multi-lingual data description. Having two simple text files per dataset allows us to disseminate the resulting time series data on free, standard infrastructure such as GitHub that is well established in the open source community. The state-of-the-art rendering of .csv spreadsheets of git modern platforms sets the barrier to explore and consume our scientific use time series datasets as low as possible. Hence, the publication of data on GitHub, possibly using git's Large File Storage (LFS) extension, forms oru baseline scenario. Yet, in WP2 we explore the feasibility of other, complementary, regional and international publication channels such opendata.swiss or Zenodo.
+The *opents* approach suggested here, splits data and metainformation into two separate text files and formats: a simple .csv spreadsheet and a nested .json file for multi-lingual data description. Having two simple text files per dataset allows us to disseminate the resulting time series data on free, standard infrastructure such as GitHub that is well established in the open source community. The state-of-the-art rendering of .csv spreadsheets of git modern platforms sets the barrier to explore and consume our scientific use time series datasets as low as possible. Hence, the publication of data on GitHub, possibly using git's Large File Storage (LFS) extension, forms oru baseline scenario. Yet, in WP2 we explore the feasibility of other, complementary, regional and international publication channels such
+opendata.swiss, r-universe or Zenodo.
 
 <!-- CSV + JSON = opents , do we want to have a demo here ? code block mit .csv (README swissdata org--->
 
-Technically, the *opents* framework consists of a core R package and several data provider specific ingestion packages. Again, we see the publication of all these components as open source libraries on GitHub as the baseline.
+Technically, the *opents* framework consists of a core R package and several data provider specific ingestion packages. Again, we see the publication of all these components as open source libraries on GitHub or another major Git platform with good visibility as the baseline form of publication. In addition, WP2 explores which of our components are suitable for a publication on the Comprehensive R Archive Network (CRAN). Publication on CRAN comes with requirements and quality control but opens up our work to a larger audience as endusers face the lowest possible hurdle to install our packages. 
 
-- CRAN -> deployment easy, accessible low barrier
-- runiverse: additional channel
-- ropensci (enables better community contribution, scientific data sources)
+<!-- example screenshot of GUI downloading package from CRAN -->
+
+
+We will also explore more recent and experimental approaches such as r-universe which helps to improve our reach in the data science community. In WP2, we aim to expose our work to an rOpenSci peer review. rOpenSci shares our values of open and reproducible research through reusable and helps us to reach ORD excellence. 
+
 - choosealicense
-
-
-
-
-software
-
-
-
-
-
-
-Work package WP2 publishes all components of our work: The publication of machine ingestion friendly datasets and descriptions facilitates scientific use and makes it easier for the users of the data to work in reproducible fashion. Through publication of our processing framework, we apply the same standards to our work and communicate ORD practices across disciplines using code as an interdisciplinary channel. Finally, through the publication of an infrastructure sketch that is capable of operating our processing framework, we aim to lower the barrier for researchers to run processes that make datasets machine readable in their respective fields.
-
-
-
 - CRAN
 - GitHub
 - runiverse
 - rOpenSci
 - Zenodo
 - opendata.swiss
-
 - licenses (ETH Rechtsdienst)
 
 
