@@ -47,16 +47,15 @@ code as a communication channel,
 
 ## Background and Motivation
 
-Though we hope to extend the approach suggested in this proposal to further fields in the future, we intend to focus on the disciplines of Official Statistics and empirical Economics and their communities within the scope of this *Explore* proposal. Hence, we introduce our background and motivation to help contextualize our ideas with the example application we intend to *explore* in the propsed project.
+Though we hope to extend the approach suggested in this proposal to other fields in the future, we intend to focus on the disciplines of official statistics and empirical economics and their communities within the scope of this *Explore* proposal. Therefore, we present our background and motivation in order to contextualize our ideas with the example application we intend to *explore* in the proposed project.
 
 ### Time Series Analysis, Forecasting and Data Science in Economics
 
-- KOF intro, was wird mit ts gemacht 
-- monitoring the economy, indicators
-- shock absorption 
-- structural research, innovation
-- education
-- revision, evaluation of forecasts ask for automation
+Given our team's professional background at the Swiss Economic Institute (KOF-ETH), our focus is on working with economic data. The Institute has a strong focus on data, as it plays an essential role in monitoring the Swiss economy. It produces a large number of forecasts and indicators for economic monitoring. Its data pool of company surveys is unique in Switzerland. KOF uses this data to generate various indicators (KOF Economic Barometer, KOF Employment Indicator, KOF Business Situation Indicator, etc.) that reflect the sentiment of the Swiss economy. It analyses its survey results on a quarterly basis and presents them to the public, as well as its economic forecasts and nowcasts. It also analyses the innovation activities of Swiss companies, provides studies on the labour market and healthcare expenditure and comments on current economic developments. The KOF is also involved (together with the ifo Institute in Munich) in the Joint Economic Forecast in Germany, which serves the German government as a benchmark for future economic development.
+
+The bulk of KOF's database therefore consists of time series aggregating survey responses at various levels of granularity. Given the nature of the forecasts, which need to be evaluated and revised frequently, the data dissemination processes required to evaluate the forecasts need to be automated.
+
+<!-- bei shock absorption und education wusste nicht wie ich das in den text integriere? the monitoring of shock absorption through fiscal, monetary policy? education by chair gersbach und sturm? -->
 
 ### Official Statistics and Public Data
 
@@ -66,7 +65,9 @@ Though we hope to extend the approach suggested in this proposal to further fiel
 
 ### Public Data / Open by default @ RSEED
 
-- opendata.swiss (institutsprofil von KOF, was für daten wir haben, was wir geschrieben haben zu opendata und open by data) -> inspiration 
-- KOF's access to economic data which is made available to the public
+Making economic data on Switzerland more visible and accessible is one of KOF's concerns. Given its role in academia and its resources which stem from the state (?), KOF is commited to making its data as open as possible, and as restricted as necessary. For this reason, the KOF, together with the Swiss Federal Statistical Office (FSO), has identified key economic data that are processed as Open Government Data (OGD) and made available on the opendata.swiss platform. For now, KOF has published its Economic Sentiment Indicator, Global and Swiss Barometers, and Employment Indicator. 
+
+
+
 
 
