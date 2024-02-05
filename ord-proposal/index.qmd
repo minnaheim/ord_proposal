@@ -11,9 +11,24 @@
 
 ## Problem Statement
 
-"opnts bridges the gap between official statistics and academic research"
+ Opnts bridges the gap between official statistics and academic research. Even though public availability of official statistics is decent (in Switzerland), data publications of regional and federal public data providers lack machine readability. Therefore these data publications are inconvenient to use for academic researchers.
 
-in 2 ways: 
+ In the field of economics, for example, intertemporal comparisons play an important role. This implies regular and timely ingestions of data. Traditional data publications of (time series data) are often unsuitable as an interface between the data provider and the scientific consumer. 
+
+ <!-- insert bfs excel (example of a data publication that is hard to ingest by a machine)-->
+ 
+ Though application programming interfaces (APIs) from the official providers have lead to great improvements of machine reability of public data, the machine readability of public data is not homogenous across datasets.  Because modern economic (forecasting) models make use of hundreds of variables stemming from a large range of datasets, this heterogeneity is particularly troublesome for scientific use and the monitoring of the Swiss economy. Opnts mitigates this dynamic problem by providing an open technical framework, to ease the data sourcing and quality control burden, and by establishing a steady exchange (collaboration) between regional and federal data providors and its academic community.
+
+
+- waste of resources, no solution while waiting for digital transformation, highly dynamic -> can't wait.
+- data publication vs. time series, scientific use. 
+- data is often publicly available but hard to digest for machines
+- undeniably OGD has had great impact, data quality remains heterogeneous, particularly w.r.t. machine readability.
+- methodological and technical advances (computing power) open up new possibilities but require high degrees of automation in data ingestion when models use large amounts of time series
+- higher frequency, e.g., immediate evaluation of measures during COVID-19 regulations. 
+- evaluation of forecasts (benchmark) ask for automation
+
+<!-- in 2 ways: 
 
 1. improving & spreading ORD practices (active discussions with FSO, teaching, FAIR principle inclusion)
 2. code as communication (framework as a blueprint to communicate what we want to do, as an interim solution).
@@ -27,22 +42,7 @@ way to do it: streamline publication, inclusion across all working packages. sha
 have different entrypoints for different needs: data, source code, meta data etc. 
 code as a communication channel,
 
-:::
-
-
-- waste of resources, no solution while waiting for digital transformation, highly dynamic -> can't wait.
-- data publication vs. time series, scientific use. 
-- data is often publicly available but hard to digest for machines
-- undeniably OGD has had great impact, data quality remains heterogeneous, particularly w.r.t. machine readability.
-- methodological and technical advances (computing power) open up new possibilities but require high degrees of automation in data ingestion when models use large amounts of time series
-- higher frequency, e.g., immediate evaluation of measures during COVID-19 regulations. 
-- evaluation of forecasts (benchmark) ask for automation
-
- 
-
-=> 3 overall goals here.. 
-
-
+::: -->
 
 
 ## Background and Motivation
@@ -51,6 +51,7 @@ Though we hope to extend the approach suggested in this proposal to further fiel
 
 ### Time Series Analysis, Forecasting and Data Science in Economics
 
+- KOF intro, was wird mit ts gemacht 
 - monitoring the economy, indicators
 - shock absorption 
 - structural research, innovation
@@ -65,6 +66,7 @@ Though we hope to extend the approach suggested in this proposal to further fiel
 
 ### Public Data / Open by default @ RSEED
 
+- opendata.swiss (institutsprofil von KOF, was für daten wir haben, was wir geschrieben haben zu opendata und open by data) -> inspiration 
 - KOF's access to economic data which is made available to the public
 
 
