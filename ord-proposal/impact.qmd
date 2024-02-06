@@ -31,3 +31,5 @@ The opnts framework ensures that the repetitive task of data dissemination is ke
 
 - cooperation with FSO in WP0 allows academic and public experts to be in dialogue and their ideas to be heard (collaboration)
 
+- include frictionless existing community practices (community run "universe" damit non-core packages von der community beigetragen werde, und die frictionlessdata leute beraten die Leute nur. Aber ich glaube es wäre trotzdem sehr gut, wenn wir deren projekt erwähnen, weil teil der bewertung ist "excellence of ORD practices", aka wie gut integrieren wir existierende ORD prinzipien und tools.)
+
