@@ -16,30 +16,34 @@ Please address these specific points:
 
 The opnts framework ensures that the repetitive task of data dissemination is kept to a minimum, and thus saves the precious resources of researchers and data consumers. (solves critical problem) 
 
+**FAIR-principles**
 
-- accessible because low barriers to entry when publishing software on Github (and other OS platforms) and data on Zenodo (and other OS platforms), integrated into teaching
+- *findable* because of publishing of software and data (on github, rOpenSci, and Dryad platforms, CRAN)
 
-- the project raises awareness about potential for improvement within public insitutions (advancement of ORD not only through opnts but effect on public institutions) -> accountability
+- *accessible* because low barriers to entry when publishing software on Github (and other OS platforms) and data on Zenodo (and other OS platforms), integrated into teaching
 
-- using the opnts framework for teaching helps leverage investments of FSO and gets students familiarized with FSO data and ORD principles (sustainable and collaborative)
+- *accountable* because the project raises awareness about potential for improvement within public insitutions (and exposure to community means potential to improve the opnts framework) 
 
-- teaching allows not only for accountability of framework, but improvements and interoperability (not only econs, but health scientists, etc.)
+- *interoperable* because of the ability to add supplementary packages, where researchers can apply the opnts software to their field 
 
-- cooperation with FSO in WP0 allows academic and public experts to be in dialogue and their ideas to be heard (collaboration)
+- *interoperable* because of teaching, Hacking4Science means students from different fields and applications
 
 **sustainability inside the ETH Domain:**
 
 - used already at KOF (and will continue to be used)
 - community rooted in academia (ETH, EPFL, etc.)
 - opnts' community helps monitor and keep researchers accountable (sustainability)
-- open source / est. publishing means the 
+- using the opnts framework for teaching helps leverage investments of FSO and gets students familiarized with FSO data and ORD principles 
 
-**extent will the planned project substantially advance the ORD**
+**to what extent will the planned project substantially advance the ORD**
 
+- integration into teaching
 - ?
 
 **to what extent does the proposal support a collaborative approach, synergies**
 
 - collab with existing technologies (frictionlessdata,csv on the web) and their communities
 - non-core packages created by community - for their needs and adaptions 
+- teaching allows not only for accountability of framework, but improvements and interoperability (not only econs, but health scientists, etc.)
+- cooperation with FSO in WP0 allows academic and public experts to be in dialogue and their ideas to be heard 
 
