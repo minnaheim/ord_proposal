@@ -5,8 +5,7 @@ Please address these specific points:
 
 - How sustainable is the proposed project inside the ETH Domain?
 
-- To what extent will the planned project substantially advance the ORD
-  field, or solve a critical outstanding problem in the targeted
+- To what extent will the planned project substantially advance the ORD field, or solve a critical outstanding problem in the targeted
   field(s)?
 
 - To what extent does the proposal support a collaborative approach,
@@ -35,10 +34,12 @@ The opnts framework ensures that the repetitive task of data dissemination is ke
 - opnts' community helps monitor and keep researchers accountable (sustainability)
 - using the opnts framework for teaching helps leverage investments of FSO and gets students familiarized with FSO data and ORD principles 
 
-**to what extent will the planned project substantially advance the ORD**
+**to what extent will the planned project substantially advance the ORD field**
 
+- mitigation (wir warten nicht auf versprechen, dynamic project)
+- political push
+- link between academia and public administration
 - integration into teaching
-- ?
 
 **to what extent does the proposal support a collaborative approach, synergies**
 
