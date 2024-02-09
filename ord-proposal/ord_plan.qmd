@@ -193,7 +193,7 @@ baseline scenario OSS (GitHub) -> explain components -> which platforms provide 
 
 
 
-## WP3: Community Activation
+## WP3: Facilitation of opnts Use and Applications 
 
 ```{r,echo=FALSE,message=FALSE,warning=FALSE}
 library(readr)
@@ -232,20 +232,32 @@ r <- tbl |>
 
 
 ### Goals
-
+<!-- less community, add hacking for RAs -->
 The goal of Work Package 3 (WP3) is to create a community around opnts. This ensures that the opnts framework can not only improve its core packages, through feedback from the community, but also to expand its application into different academic fields. 
 
-### Implementation
+ - plan to present and promote opnts at UseR in Salzburg 2024 -> focus on framework, R package, CRAN publication, etc. 
+ - integrate into teaching 
+    - h4sci 2024 - enable students to use, integrate students ideas and their needs - 2025 - present framework, use software and data in teaching -
+    - (h4ra)
+ - connect to ETH domain RSE -> find contributers outside of economics - reach out of our field, environmental research, physicists, etc. -> different academic fields, data.
+ - RSECON 2024 (in case of budget restrictions)
+ - regular updates within community through out the project: opendatabeer, lovedata week, etc. - continuously establish and bolster community (sustainability, can survive without us)
 
+### Implementation
+<!-- hacking for RAs, use for H4Sci in 2025 -->
 This will be done in three ways: by integrating the opnts data and software package into academic teaching aimed at scientists from different disciplines, by hosting the "R of Official Statistics" conference, and by participating in community events that allow different skills to come together.
 
-<!-- Hacking4Science: -->
+<!-- Hacking4Science -->
 The Opnts data and software will be integrated into the Hacking for Science course. This is a highly interactive online course that provides valuable big-picture guidance and hands-on software development skills to non-computer science students. The course aims to support researchers from all disciplines who are considering programming as part of their approach to working with data. The use of the opnts framework and data will not only help young researchers to work with CSV, the most popular format in the open data world, but also to understand its machine readability limitations and how to use opnts to transform non-FAIR public data into data they can use and share. Furthermore, the interdisciplinary nature of the course allows the students, who are D-MTEC PhD students from different academic backgrounds, to come into contact with opnts time series data and the opnts software, and to find applications for their fields and their data. This is made possible by the flipped classroom concept, where participants receive input on certain topics and then move on to self-study, where they decide for themselves which topics raised during the input sessions they want to explore in more detail.
+<!-- hacking for RAs  -->
 
 <!-- R in Official Statistics -->
+<!-- BfS? plan to bring an established conference to zurich, Matt has experience with UseR, Euros, schweizer statistik tage -->
 The international conference Use of R in Official Statistics is held annually in different countries. It brings together the global R community focused on the use of R for statistics, methodology and data science. By hosting the [uRosConf](https://r-project.ro/conference2023.html) in (2024) 2025, not only will the vibrant R community for statistics be maintained, but it can enable the opnts project to gain more traction and potentially more applications in different fields. 
 
-<!-- Integration with other events -->
+<!-- Integration with other events, integrate/mention Wüst Guy, what are his other events, mention -->
+ - plan to present and promote UseR in Salzburg...
+
 Finally, opnts will be presented at a number of community events focused on research software engineering (and economic data). Existing community events such as RSE@ETH, RSECON 2024 and the RSEED at KOF meetup series have a large and intersectoral reach. From academia to administration and the private sector, the audience of these events is more diverse than that of a single event. By presenting the opnts project at conferences or events such as these, we introduce opnts to professionals in different fields with different open source needs and ideas for collaboration.
 
 
