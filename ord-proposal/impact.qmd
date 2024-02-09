@@ -5,8 +5,7 @@ Please address these specific points:
 
 - How sustainable is the proposed project inside the ETH Domain?
 
-- To what extent will the planned project substantially advance the ORD field, or solve a critical outstanding problem in the targeted
-  field(s)?
+- To what extent will the planned project substantially advance the ORD field, or solve a critical outstanding problem in the targeted field(s)?
 
 - To what extent does the proposal support a collaborative approach,
   involving significant synergies, complementarities, or/and scientific
@@ -17,31 +16,36 @@ The opnts framework ensures that the repetitive task of data dissemination is ke
 
 **FAIR-principles**
 
-- *findable* because of publishing of software and data (on github, rOpenSci, and Dryad platforms, CRAN)
+- *findable* our automated approach allows us to publish to different platforms, data and software side: (on github, rOpenSci, and Dryad platforms, CRAN)
 
-- *accessible* because low barriers to entry when publishing software on Github (and other OS platforms) and data on Zenodo (and other OS platforms), integrated into teaching
-
-- *accountable* because the project raises awareness about potential for improvement within public insitutions (and exposure to community means potential to improve the opnts framework) 
+- *accessible* we open source it, find right licence, ETH rechtdienste, publish with low hurdles, but also on those that are more convenient and less accessible, i.e. CRAN because low barriers to entry when publishing software on Github (and other OS platforms) and data on Zenodo (and other OS platforms), integrated into teaching
 
 - *interoperable* because of the ability to add supplementary packages, where researchers can apply the opnts software to their field 
 
-- *interoperable* because of teaching, Hacking4Science means students from different fields and applications
+- *interoperable* because can be used in different languages, no matter which language, operating system - even across culture the "look at data people can understand" -> excel, google spreadsheets 
 
-**sustainability inside the ETH Domain:**
+- *reusable* because we publish data and framework and even the infrastructure as code. community service, reachable through matrix channel, maintainer concept (find maintainers for specific datasets, specific fields, through maintainer of CRAN)
+
+**Sustainability**
 
 - used already at KOF (and will continue to be used)
 - community rooted in academia (ETH, EPFL, etc.)
 - opnts' community helps monitor and keep researchers accountable (sustainability)
 - using the opnts framework for teaching helps leverage investments of FSO and gets students familiarized with FSO data and ORD principles 
 
-**to what extent will the planned project substantially advance the ORD field**
+<!-- openwashdata: Extremely. Although this is the first phase and highly experimental, it has the potential to generate not only a significant amount of data but also much needed knowledge about the barriers, needs, and challenges associated with moving a very decentralized, traditional discipline forward in it’s understanding and appreciation of Open Science principles and ORD practices. -->
+
+**Solving a critical Problem: immediate impact**
+
+- immediate impact weil wir können nicht immer auf BfS warten
+- absolving repetitive tasks across organisations (not only at KOF) -> we share an approach funded by public money
 
 - mitigation (wir warten nicht auf versprechen, dynamic project)
 - political push
 - link between academia and public administration
 - integration into teaching
 
-**to what extent does the proposal support a collaborative approach, synergies**
+**Collaborative approach (political part)**
 
 - collab with existing technologies (frictionlessdata,csv on the web) and their communities
 - non-core packages created by community - for their needs and adaptions 
