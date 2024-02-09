@@ -55,6 +55,8 @@ Given our team's professional background at the Swiss Economic Institute (KOF-ET
 
 The bulk of KOF's database therefore consists of time series aggregating survey responses at various levels of granularity. Given the nature of the forecasts, which need to be evaluated and revised frequently, the data dissemination processes required to evaluate the forecasts need to be automated.
 
+<!-- changes: mehr kompakt, mehr academic research (was sind die felder in ökonomischen fachzeitschriften, wo man zeitreihen braucht. gib noch r ts beispiel dazu, wie's automatisiert ausschaut) -->
+
 <!-- bei shock absorption und education wusste nicht wie ich das in den text integriere? the monitoring of shock absorption through fiscal, monetary policy? education by chair gersbach und sturm? -->
 
 ### Official Statistics and Public Data
@@ -67,7 +69,7 @@ The bulk of KOF's database therefore consists of time series aggregating survey 
 
 Making economic data on Switzerland more visible and accessible is one of KOF's concerns. Given its role in academia and its resources which stem from the state (?), KOF is commited to making its data as open as possible, and as restricted as necessary. For this reason, the KOF, together with the Swiss Federal Statistical Office (FSO), has identified key economic data that are processed as Open Government Data (OGD) and made available on the opendata.swiss platform. For now, KOF has published its Economic Sentiment Indicator, Global and Swiss Barometers, and Employment Indicator. 
 
-
+<!-- our background in public data, we already have open data, kof data, kof datenservice api, ts explorer -> we already do a lot -->
 
 
 
