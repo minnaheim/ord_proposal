@@ -233,18 +233,20 @@ r <- tbl |>
 
 ### Goals
 
-The goal of Work Package 3 (WP3) is to create a community around opnts. This ensures that the opnts framework can not only improve its core packages (through feedback from the community) but also expand its application into different academic fields. 
+The goal of Work Package 3 (WP3) is to create a community around opnts. This ensures that the opnts framework can not only improve its core packages, through feedback from the community, but also to expand its application into different academic fields. 
 
 ### Implementation
 
-This will be done in three ways: the opnts data and software package will be integrated into academic teaching aimed at scientists of diverse fields, the "R of Official Statistics" conference will be hosted, and community events will be planned which enable a get-together of different competencies. 
+This will be done in three ways: by integrating the opnts data and software package into academic teaching aimed at scientists from different disciplines, by hosting the "R of Official Statistics" conference, and by participating in community events that allow different skills to come together.
 
-- academic teaching -> opnts in h4sci bec. practice working with machine readable data, etc. 
+<!-- Hacking4Science: -->
+The Opnts data and software will be integrated into the Hacking for Science course. This is a highly interactive online course that provides valuable big-picture guidance and hands-on software development skills to non-computer science students. The course aims to support researchers from all disciplines who are considering programming as part of their approach to working with data. The use of the opnts framework and data will not only help young researchers to work with CSV, the most popular format in the open data world, but also to understand its machine readability limitations and how to use opnts to transform non-FAIR public data into data they can use and share. Furthermore, the interdisciplinary nature of the course allows the students, who are D-MTEC PhD students from different academic backgrounds, to come into contact with opnts time series data and the opnts software, and to find applications for their fields and their data. This is made possible by the flipped classroom concept, where participants receive input on certain topics and then move on to self-study, where they decide for themselves which topics raised during the input sessions they want to explore in more detail.
 
-"Hacking for Science is a highly interactive, online course providing non-computer science students valuable big picture guidance and teaching hands-on software development skills. The course aims to help researchers of all fields who embrace programming as part of their approach to working with data. Hacking for Science is part of D-MTEC offering for PhD students but has benefited from guests from academia as well as the public and private sector"
+<!-- R in Official Statistics -->
+The international conference Use of R in Official Statistics is held annually in different countries. It brings together the global R community focused on the use of R for statistics, methodology and data science. By hosting the [uRosConf](https://r-project.ro/conference2023.html) in (2024) 2025, not only will the vibrant R community for statistics be maintained, but it can enable the opnts project to gain more traction and potentially more applications in different fields. 
 
-- host a [uRosConf](https://r-project.ro/conference2023.html) 2024 
-- integrate opnts into existing community events (RSE @ ETH, RSECON 2024, RSEED meet-up series)
+<!-- Integration with other events -->
+Finally, opnts will be presented at a number of community events focused on research software engineering (and economic data). Existing community events such as RSE@ETH, RSECON 2024 and the RSEED at KOF meetup series have a large and intersectoral reach. From academia to administration and the private sector, the audience of these events is more diverse than that of a single event. By presenting the opnts project at conferences or events such as these, we introduce opnts to professionals in different fields with different open source needs and ideas for collaboration.
 
 
 
