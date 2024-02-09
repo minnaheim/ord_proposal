@@ -233,14 +233,26 @@ r <- tbl |>
 
 ### Goals
 
+The goal of Work Package 3 (WP3) is to create a community around opnts. This ensures that the opnts framework can not only improve its core packages (through feedback from the community) but also expand its application into different academic fields. 
+
+### Implementation
+
+This will be done in three ways: the opnts data and software package will be integrated into academic teaching aimed at scientists of diverse fields, the "R of Official Statistics" conference will be hosted, and community events will be planned which enable a get-together of different competencies. 
+
+- academic teaching -> opnts in h4sci bec. practice working with machine readable data, etc. 
+
+"Hacking for Science is a highly interactive, online course providing non-computer science students valuable big picture guidance and teaching hands-on software development skills. The course aims to help researchers of all fields who embrace programming as part of their approach to working with data. Hacking for Science is part of D-MTEC offering for PhD students but has benefited from guests from academia as well as the public and private sector"
+
+- host a [uRosConf](https://r-project.ro/conference2023.html) 2024 
+- integrate opnts into existing community events (RSE @ ETH, RSECON 2024, RSEED meet-up series)
+
+
+
+
 
 
 
 <!--- crap line
-
-
-
-
 
 The source code that we develop at this stage aims to implement and communicate open data standards and at the same time creates machine ingestion friendly datasets. we benchmark and update data and metadata against as fair principle a benchmark of 
 
