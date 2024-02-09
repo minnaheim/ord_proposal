@@ -20,6 +20,7 @@
  Though application programming interfaces (APIs) from the official providers have lead to great improvements of machine reability of public data, the machine readability of public data is not homogenous across datasets.  Because modern economic (forecasting) models make use of hundreds of variables stemming from a large range of datasets, this heterogeneity is particularly troublesome for scientific use and the monitoring of the Swiss economy. Opnts mitigates this dynamic problem by providing an open technical framework, to ease the data sourcing and quality control burden, and by establishing a steady exchange (collaboration) between regional and federal data providors and its academic community.
 
 
+- machine readability AND common academic formats/perspective -> time series, (longterm) intertemporal comparison
 - waste of resources, no solution while waiting for digital transformation, highly dynamic -> can't wait.
 - data publication vs. time series, scientific use. 
 - data is often publicly available but hard to digest for machines
