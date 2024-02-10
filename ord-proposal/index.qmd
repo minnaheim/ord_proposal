@@ -47,13 +47,35 @@ code as a communication channel,
 
 ## Background and Motivation
 
-Though we hope to extend the approach suggested in this proposal to other fields in the future, we intend to focus on the disciplines of official statistics and empirical economics and their communities within the scope of this *Explore* proposal. Therefore, we present our background and motivation in order to contextualize our ideas with the example application we intend to *explore* in the proposed project.
+Though we hope to extend the approach suggested in this proposal to other fields in the future, we intend to focus on our 'homecourt' disciplines of official statistics and empirical economics in this *Explore* proposal.
+We are confident that the strength of our network in both of these fields will help leverage our initial *Explore* push enough to give the impact of our project a great chance to spill over to other disciplines and their communities. Therefore, we present our background and motivation in order to contextualize our ideas with the example application we intend to *explore* in the proposed project.
 
 ### Time Series Analysis, Forecasting and Data Science in Economics
 
-Given our team's professional background at the Swiss Economic Institute (KOF-ETH), our focus is on working with economic data. The Institute has a strong focus on data, as it plays an essential role in monitoring the Swiss economy. It produces a large number of forecasts and indicators for economic monitoring. Its data pool of company surveys is unique in Switzerland. KOF uses this data to generate various indicators (KOF Economic Barometer, KOF Employment Indicator, KOF Business Situation Indicator, etc.) that reflect the sentiment of the Swiss economy. It analyses its survey results on a quarterly basis and presents them to the public, as well as its economic forecasts and nowcasts. It also analyses the innovation activities of Swiss companies, provides studies on the labour market and healthcare expenditure and comments on current economic developments. The KOF is also involved (together with the ifo Institute in Munich) in the Joint Economic Forecast in Germany, which serves the German government as a benchmark for future economic development.
+In addition to the strong empirical focus of its academic research, the  KOF Swiss Economic Institute at ETH Zurich has a national mandate to monitor the Swiss economy.
+In the process, KOF produces forecasts and indicators many of which rely on publicly available data provided by federal and regional administration. KOF is also involved (together with the ifo Institute in Munich) in the Joint Economic Forecast in Germany, which serves the German government as a benchmark for future economic development.
 
-The bulk of KOF's database therefore consists of time series aggregating survey responses at various levels of granularity. Given the nature of the forecasts, which need to be evaluated and revised frequently, the data dissemination processes required to evaluate the forecasts need to be automated.
+```{r,echo=FALSE,message=FALSE,warnings=FALSE}
+#| fig-cap: "The KOF Economic Barometer is a forward looking indicator (FLI) for the Swiss economy. It is well received in Switzerland and used as the official FLI for Switzerland by the International Monetary Fund (IMF)."
+
+library(kofdata)
+library(tstools)
+tsl <- get_time_series("ch.kof.barometer")
+tsplot(tsl)
+
+
+```
+
+Time series data are an important common denominator for activities such as intertemporal comparisons, forecasting, benchmarking of forecasts, study of shock absorption and many other economic modelling excercises. 
+Modern models often use hundreds or even thousands of time series.
+Hence machine readability and automation is key to process data and monitor revisions in such an amount of information.
+
+In the opnts project, we intend to help the time series community by sharing our data ingestion framework as well as machine readable scientific use grade time series data. 
+The latter will immediately help institutions such as the Swiss National Bank, the Secretariat of Economic affairs, regional offices as well as academic researchers who use these time series data. 
+Sharing machine readable data mitigates data ingestion problems and lowers the need for redundant processing across institutions. 
+In the long run, improvement in inclusivity will -- framework.
+
+
 
 <!-- changes: mehr kompakt, mehr academic research (was sind die felder in ökonomischen fachzeitschriften, wo man zeitreihen braucht. gib noch r ts beispiel dazu, wie's automatisiert ausschaut) -->
 
