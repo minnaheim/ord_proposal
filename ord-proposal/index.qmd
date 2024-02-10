@@ -47,10 +47,17 @@ code as a communication channel,
 
 ## Background and Motivation
 
-Though we hope to extend the approach suggested in this proposal to other fields in the future, we intend to focus on our 'homecourt' disciplines of official statistics and empirical economics in this *Explore* proposal.
-We are confident that the strength of our network in both of these fields will help leverage our initial *Explore* push enough to give the impact of our project a great chance to spill over to other disciplines and their communities. Therefore, we present our background and motivation in order to contextualize our ideas with the example application we intend to *explore* in the proposed project.
+Though we aim to extend the approach suggested in this proposal to other fields in the future, this *Explore* proposal focuses on our 'homecourt' disciplines of public statistics and empirical economics.
+We are confident that our strong network in both of these fields will leverage our initial push enough to give the impact of the *opents* project a great chance to spill over to other communities. 
+The following sections introduce our background and explains how the proposed project helps the economics, forecasting and open data communities. 
 
 ### Time Series Analysis, Forecasting and Data Science in Economics
+
+Time Series analysis continues to play an important role in many strands of modern empirical economics: 
+Economic forecasting and its evaluation, studies of shock absorption and many other econometric modelling exercises ask for data that allow intertemporal comparison. 
+Modern models often use hundreds or even thousands of time series. 
+Hence machine readability and automation is key to process data and monitor revisions in such an amount of information.
+
 
 In addition to the strong empirical focus of its academic research, the  KOF Swiss Economic Institute at ETH Zurich has a national mandate to monitor the Swiss economy.
 In the process, KOF produces forecasts and indicators many of which rely on publicly available data provided by federal and regional administration. KOF is also involved (together with the ifo Institute in Munich) in the Joint Economic Forecast in Germany, which serves the German government as a benchmark for future economic development.
@@ -67,8 +74,7 @@ tsplot(tsl)
 ```
 
 Time series data are an important common denominator for activities such as intertemporal comparisons, forecasting, benchmarking of forecasts, study of shock absorption and many other economic modelling excercises. 
-Modern models often use hundreds or even thousands of time series.
-Hence machine readability and automation is key to process data and monitor revisions in such an amount of information.
+
 
 In the opnts project, we intend to help the time series community by sharing our data ingestion framework as well as machine readable scientific use grade time series data. 
 The latter will immediately help institutions such as the Swiss National Bank, the Secretariat of Economic affairs, regional offices as well as academic researchers who use these time series data. 
@@ -81,11 +87,14 @@ In the long run, improvement in inclusivity will -- framework.
 
 <!-- bei shock absorption und education wusste nicht wie ich das in den text integriere? the monitoring of shock absorption through fiscal, monetary policy? education by chair gersbach und sturm? -->
 
-### Official Statistics and Public Data
+
 
 - important source
 - requirements of scientific use different from main focus: data publication. 
 
+
+
+### Official Statistics and Public Data
 
 ### Public Data / Open by default @ RSEED
 
