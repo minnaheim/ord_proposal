@@ -56,6 +56,40 @@ The following sections introduce our background and explains how the proposed pr
 Time Series analysis continues to play an important role in many strands of modern empirical economics: 
 Economic forecasting and its evaluation, studies of shock absorption and many other econometric modelling exercises ask for data that allow intertemporal comparison. 
 Modern models often use hundreds or even thousands of time series. 
+
+Even though machine readability of publicly available data has improved in Switzerland thanks to great efforts led by the Swiss Federal Statistical Office (SFSO), researchers face a publication mindset that is focused on the wider public and hence on the most recent wave of data. 
+As a consequence, variable names or features may change over time and minor errors may simply get corrected adhoc or with the next publication – even in datasets that are already available through an application programming interface. 
+In combination with different degrees of machine readability across different providers of public data, the issues mentioned above can lead two very heterogeneous situation when it comes to automated data ingestion – particularly for those researchers who need a large amount of data from a variety of providers. 
+
+Our motivation is to help the time series community immediately while larger organizations face different restrictions and need to move slower. 
+We intend to do so by not only open sourcing a framework to create scientific use grade time series from official statistics, but also publishing our framework in the most inclusive way possible: 
+i) we focus on thorough documentation that involves the community, ii) we provide comprehensive application examples making many thousand proven time series available, iii) through an infrastructure-as-code approach, we give precise information on how to set up an environment that is capable of running our framework. 
+
+
+
+
+
+### Sustainability through Cooperation: Official Statistics and Public Data
+
+- at same time oru background in regular publication and identification with the official statistics community ensures sustainability of the opnts effort.
+
+
+
+Even though machine readability of publicly available 
+- research use publicly available data are published with a publication mindset
+- APIs not free of the mindset
+- Introduction of APIs is slow 
+- our motivation: help ts community immediately as larger oragnizations move slower, publication of time series data that is homogeneous across providers helps research community immediately
+
+
+
+
+- at the same active exchange with FSO etc. channels research communities needs into official statistics efforts
+
+
+
+
+
 Hence machine readability and automation is key to process data and monitor revisions in such an amount of information.
 
 
@@ -94,7 +128,7 @@ In the long run, improvement in inclusivity will -- framework.
 
 
 
-### Official Statistics and Public Data
+
 
 ### Public Data / Open by default @ RSEED
 
