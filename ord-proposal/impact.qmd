@@ -12,9 +12,26 @@ Please address these specific points:
   added-value to achieve its objectives? -->
 
 
-The opnts framework ensures that the repetitive task of data dissemination is kept to a minimum, and thus saves the precious resources of researchers and data consumers. (solves critical problem) 
+It is particularly important to us to not only solve a critical problem of our community, but also to do so in sustainable fashion. We are convinced that aligning opents with the FAIR principles is instrumental to establish our approach in our own community and to reach other research communities from there. 
 
-**FAIR-principles**
+## Sustainability in the ETH Domain
+
+Regular and timely data sourcing is manadatory for KOF's academic and national tasks. 
+Hence we are fully convinced that pushing an ORD approach at KOF, will help advances ORD practices in empirical economics and official statistics in the long term. 
+The usage of the opnts framework in teaching and the economic community helps to leverage digital transformation efforts in official statistics as future researchers and public servants alike become familiar with Swiss official statistics data and ORD principles. 
+In addition, our inclusive approach helps to keep the community involved while the idea of modular software packages with their maintainers allows to pass on responsibilities in case of changes in personnel.
+The Comprehensive R Archive Network (CRAN) and the R Project for Statistical Computing has a long tradition at ETH.
+The ETH domain and its staff contributed substantially to the language and its extension packages including to CRAN itself^[see also https://stat.ethz.ch/CRAN/]. 
+
+## Solving a Critical Problem
+
+Although there has been a certain sense of urgency for digital transformation in the public sector since the pandemic at the latest, change management schedules do not always align with the timeline of individual academic careers or ongoing daily business. 
+While we greatly appreciate advances in the above efforts, we provide an immediate solution to data sourcing to those that need to ingest public data today. 
+In addition, we help identify redundant efforts across institutions and broker usage of a common sources, using public money more efficiently. 
+Finally, we help bridge the gap and strengthen the link between public administration and academic research.
+
+
+## FAIR Principles 
 
 - *findable* our automated approach allows us to publish to different platforms, data and software side: (on github, rOpenSci, and Dryad platforms, CRAN)
 
@@ -26,24 +43,10 @@ The opnts framework ensures that the repetitive task of data dissemination is ke
 
 - *reusable* because we publish data and framework and even the infrastructure as code. community service, reachable through matrix channel, maintainer concept (find maintainers for specific datasets, specific fields, through maintainer of CRAN)
 
-**Sustainability**
 
-- used already at KOF (and will continue to be used)
-- community rooted in academia (ETH, EPFL, etc.)
-- opnts' community helps monitor and keep researchers accountable (sustainability)
-- using the opnts framework for teaching helps leverage investments of FSO and gets students familiarized with FSO data and ORD principles 
-
-<!-- openwashdata: Extremely. Although this is the first phase and highly experimental, it has the potential to generate not only a significant amount of data but also much needed knowledge about the barriers, needs, and challenges associated with moving a very decentralized, traditional discipline forward in it’s understanding and appreciation of Open Science principles and ORD practices. -->
 
 **Solving a critical Problem: immediate impact**
 
-- immediate impact weil wir können nicht immer auf BfS warten
-- absolving repetitive tasks across organisations (not only at KOF) -> we share an approach funded by public money
-
-- mitigation (wir warten nicht auf versprechen, dynamic project)
-- political push
-- link between academia and public administration
-- integration into teaching
 
 **Collaborative approach (political part)**
 
