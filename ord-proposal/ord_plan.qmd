@@ -231,16 +231,11 @@ r <- tbl |>
 :::
 
 
-### Goals
 
 
 
 
-<!--- crap line
-
-
-
-
+<!-- crap line
 
 The source code that we develop at this stage aims to implement and communicate open data standards and at the same time creates machine ingestion friendly datasets. we benchmark and update data and metadata against as fair principle a benchmark of 
 
@@ -304,14 +299,6 @@ DONE
 - community 
 - open source, free of license costs
 - runtime environment
-
-
-
-
-
-
-
-
 
 
 
