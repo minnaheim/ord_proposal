@@ -31,6 +31,25 @@ In addition, we help identify redundant efforts across institutions and broker u
 Finally, we help bridge the gap and strengthen the link between public administration and academic research.
 
 
+
+## Collaboroative Approach
+
+The proposed opnts project his highly collaborative in multiple ways. 
+The technical approach is inclusive and modular: Through open-sourcing and focusing the core package we hold ourselves accountable through the community and at the same encourage contribution to the technical core. 
+Through data provider specific modules we provide example which collaborators from other fields can use as blueprints to build their own extension packages to process data from their respective fields. 
+Last but not least we involve data providers from the very initial and even in advance of the project start. 
+Our goal is to use our traditional ties with federal and regional public administration to establish a channel for hands-on two way feedback betweend data providers and the research community. 
+
+
+
+
+- collab with existing technologies (frictionlessdata,csv on the web) and their communities
+- non-core packages created by community - for their needs and adaptions 
+- teaching allows not only for accountability of framework, but improvements and interoperability (not only econs, but health scientists, etc.)
+- cooperation with FSO in WP0 allows academic and public experts to be in dialogue and their ideas to be heard 
+
+
+
 ## FAIR Principles 
 
 - *findable* our automated approach allows us to publish to different platforms, data and software side: (on github, rOpenSci, and Dryad platforms, CRAN)
@@ -43,15 +62,4 @@ Finally, we help bridge the gap and strengthen the link between public administr
 
 - *reusable* because we publish data and framework and even the infrastructure as code. community service, reachable through matrix channel, maintainer concept (find maintainers for specific datasets, specific fields, through maintainer of CRAN)
 
-
-
-**Solving a critical Problem: immediate impact**
-
-
-**Collaborative approach (political part)**
-
-- collab with existing technologies (frictionlessdata,csv on the web) and their communities
-- non-core packages created by community - for their needs and adaptions 
-- teaching allows not only for accountability of framework, but improvements and interoperability (not only econs, but health scientists, etc.)
-- cooperation with FSO in WP0 allows academic and public experts to be in dialogue and their ideas to be heard 
 
