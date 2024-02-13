@@ -45,19 +45,19 @@ In the process we plan to take part in existing academic and non-academic commun
 
 ## FAIR Principles 
 
-Our approach is designed to foster *findable* output. 
-We combine our own experience with the expertise of our partners to find the right outlets for our time series data and software to reach multiple communities.
-A high degree of automation allows us to maintain our output on several outlets from GitHub to CRAN, but also subject our work to scientific reviews such 
+The opnts project works to make its output **findable**. 
+We combine our own experience with the expertise and reach of our partners to find the right outlets to help us reach multiple communities.
+A high degree of automation allows us to consider and maintain multiple platforms from GitHub to CRAN for our software and from Dryad^[https://datadryad.org/stash] to opendata.swiss and Zenodo^[https://zenodo.org/] for our datasets.  
+In addition, we intend to subject our work to a scientific software review by the reknowned [rOpenSci organization^[https://ropensci.org/]. 
 
+>rOpenSci fosters a culture that values open and reproducible research using shared data and reusable software -- https://ropensci.org/about/
 
- our automated approach allows us to publish to different platforms, data and software side: (on github, rOpenSci, and Dryad platforms, CRAN)
+We make our work **accessible**. With the support of ETH legal services, we open-source our software and find appropriate open source and creative common licenses for our software and data. 
 
-- *accessible* we open source it, find right licence, ETH rechtdienste, publish with low hurdles, but also on those that are more convenient and less accessible, i.e. CRAN because low barriers to entry when publishing software on Github (and other OS platforms) and data on Zenodo (and other OS platforms), integrated into teaching
+We do not compromise when it comes to making our data **interoperable**.
+We build on the World Wide Web Consortium's (W3C) idea of CSV on the Web, setting the tone for interoperability. Like CSVW, our data output splits data and meta data into two files, a data .csv and a meta data .json. While we use standard CSV files for time series to not only allow virtually any programming language to ingest it, but also standard office software to read our data. 
+Our JavaScript Object Notation (JSON) metadata files extend the basic idea of the W3C. We use a key to refer to data and allow to store comprehensive, multi-lingual meta information. 
 
-- *interoperable* because of the ability to add supplementary packages, where researchers can apply the opnts software to their field 
-
-- *interoperable* because can be used in different languages, no matter which language, operating system - even across culture the "look at data people can understand" -> excel, google spreadsheets 
-
-- *reusable* because we publish data and framework and even the infrastructure as code. community service, reachable through matrix channel, maintainer concept (find maintainers for specific datasets, specific fields, through maintainer of CRAN)
+A **reusable** and extendable framework and data pool of macroeconomic time series is a core contribution of the opents project. We do not only provide the data and software as is, we provide community support on our GitHub page and RSEED chat space. In addition, we use the project as a teaching example and ambassador for the FAIR principles among ETH students. 
 
 
