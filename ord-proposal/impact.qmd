@@ -48,7 +48,7 @@ In the process, we plan to take part in existing academic and non-academic commu
 The opnts project works to make its output **findable**. 
 We combine our own experience with the expertise and reach of our partners to find the right outlets to help us reach multiple communities.
 A high degree of automation allows us to consider and maintain multiple platforms from GitHub to CRAN for our software and from Dryad^[https://datadryad.org/stash] to opendata.swiss and Zenodo^[https://zenodo.org/] for our datasets.  
-In addition, we intend to subject our work to a scientific software review by the renowned [rOpenSci organization^[https://ropensci.org/]. 
+In addition, we intend to subject our work to a scientific software review [@review] by the renowned rOpenSci [@ropensci] organization.
 
 >rOpenSci fosters a culture that values open and reproducible research using shared data and reusable software -- https://ropensci.org/about/
 
