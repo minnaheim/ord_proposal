@@ -12,7 +12,7 @@ Please address these specific points:
   added-value to achieve its objectives? -->
 
 
-It is particularly important to us to not only solve a critical problem in our community, but also to do so in sustainable fashion. We are convinced that aligning opents with the FAIR principles is instrumental in establishing our approach in our own community and reaching other research communities from there. 
+It is particularly important to us to not only solve a critical problem in our community, but also to do so in sustainable fashion. We are convinced that aligning opents with the FAIR principles [@fair] is instrumental in establishing our approach in our own community and reaching other research communities from there. 
 
 ## Sustainability in the ETH Domain
 
