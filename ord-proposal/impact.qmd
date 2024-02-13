@@ -34,25 +34,23 @@ Finally, we help bridge the gap and strengthen the link between public administr
 
 ## Collaboroative Approach
 
-The proposed opnts project his highly collaborative in multiple ways. 
+The proposed opnts project is highly collaborative in multiple ways. 
 The technical approach is inclusive and modular: Through open-sourcing and focusing the core package we hold ourselves accountable through the community and at the same encourage contribution to the technical core. 
-Through data provider specific modules we provide example which collaborators from other fields can use as blueprints to build their own extension packages to process data from their respective fields. 
-Last but not least we involve data providers from the very initial and even in advance of the project start. 
-Our goal is to use our traditional ties with federal and regional public administration to establish a channel for hands-on two way feedback betweend data providers and the research community. 
-
-
-
-
-- collab with existing technologies (frictionlessdata,csv on the web) and their communities
-- non-core packages created by community - for their needs and adaptions 
-- teaching allows not only for accountability of framework, but improvements and interoperability (not only econs, but health scientists, etc.)
-- cooperation with FSO in WP0 allows academic and public experts to be in dialogue and their ideas to be heard 
-
+Our data provider specific modules we foster collaboration at the dataset level.
+Through our own dataset modules, we provide examples which collaborators from other fields can use - along with the documentation - as blueprints to build their own extension packages to process data from their respective fields. 
+Last but not least we involve data providers from the very initial phase of the project.
+Our goal is to use our traditional ties with federal and regional public administration to establish a channel for hands-on two way feedback betweend data providers and the research community.
+In the process we plan to take part in existing academic and non-academic community events and also explore ways and formats, particularly in a way of teaching involves students to our collaborative approach. 
 
 
 ## FAIR Principles 
 
-- *findable* our automated approach allows us to publish to different platforms, data and software side: (on github, rOpenSci, and Dryad platforms, CRAN)
+Our approach is designed to foster *findable* output. 
+We combine our own experience with the expertise of our partners to find the right outlets for our time series data and software to reach multiple communities.
+A high degree of automation allows us to maintain our output on several outlets from GitHub to CRAN, but also subject our work to scientific reviews such 
+
+
+ our automated approach allows us to publish to different platforms, data and software side: (on github, rOpenSci, and Dryad platforms, CRAN)
 
 - *accessible* we open source it, find right licence, ETH rechtdienste, publish with low hurdles, but also on those that are more convenient and less accessible, i.e. CRAN because low barriers to entry when publishing software on Github (and other OS platforms) and data on Zenodo (and other OS platforms), integrated into teaching
 
