@@ -102,9 +102,9 @@ Like many regular consumers of the information contained in this spreadsheet, KO
 
 ![Screenshot of a machine readable data file, processed by an R based engine.](longformat.png)
 
-In order to have homogeneous, machine readable format, we split this information into two files: a long format CSV file for the data and a JSON file for the metadata. 
-The metadata file takes advanced of the JSON's ability to store nested data to store comprehensive, multi-lingual meta information. 
-Our cooperation with the Secretariat of Economic Affairs....
+In order to have homogeneous, machine readable representation of the data, we split this information into two files: based on the CSV on the web idea by the World Wide Web Consortium (W3C), we use a long format CSV file for the data and a JSON file for the metadata. 
+The metadata file takes advantage of the JSON format's ability to handle nested data in order to store comprehensive, multi-lingual meta information. 
+Our colloborative approach with the Secretariat of Economic Affairs (SECO) led to a pionieering pilot publication of machine readable data on the official SECO website: Machine readable data is published in complementary fashion to the traditional GDP publication^[See also: https://www.seco.admin.ch/seco/en/home/wirtschaftslage---wirtschaftspolitik/Wirtschaftslage/bip-quartalsschaetzungen-/daten.html]. 
 
 ![Excerpt of the corresponding metadata file in JSON format.](metadata.png)
 
